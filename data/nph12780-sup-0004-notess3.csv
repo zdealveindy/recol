@@ -1,0 +1,755 @@
+"Dataset","Site","Leaf ID","Family","Genus","Species","Individual ID","Vein density (mm-1)"
+"Temperate (Colorado, USA)","Almont","060210-1","Asteraceae","Balsamorhiza","sagittata",1,11.67105092
+"Temperate (Colorado, USA)","Almont","060210-2","Asteraceae","Balsamorhiza","sagittata",1,10.48004028
+"Temperate (Colorado, USA)","Almont","060210-3","Asteraceae","Balsamorhiza","sagittata",1,10.25098192
+"Temperate (Colorado, USA)","Almont","060210-4","Asteraceae","Balsamorhiza","sagittata",2,4.703490546
+"Temperate (Colorado, USA)","Almont","060210-5","Asteraceae","Balsamorhiza","sagittata",2,8.634795093
+"Temperate (Colorado, USA)","Almont","060210-6","Asteraceae","Balsamorhiza","sagittata",2,10.56238515
+"Temperate (Colorado, USA)","Almont","060210-7","Asteraceae","Balsamorhiza","sagittata",3,10.50695632
+"Temperate (Colorado, USA)","Almont","060210-8","Asteraceae","Balsamorhiza","sagittata",3,16.15404626
+"Temperate (Colorado, USA)","Almont","060210-9","Asteraceae","Balsamorhiza","sagittata",3,11.6128475
+"Temperate (Colorado, USA)","Almont","060210-10","Asteraceae","Artemisia","tridentata",1,15.24724855
+"Temperate (Colorado, USA)","Almont","060210-11","Asteraceae","Artemisia","tridentata",1,7.416924428
+"Temperate (Colorado, USA)","Almont","060210-13","Asteraceae","Artemisia","tridentata",2,10.73936064
+"Temperate (Colorado, USA)","Almont","060210-14","Asteraceae","Artemisia","tridentata",2,8.803660684
+"Temperate (Colorado, USA)","Almont","060210-15","Asteraceae","Artemisia","tridentata",2,6.578663389
+"Temperate (Colorado, USA)","Almont","060210-16","Asteraceae","Artemisia","tridentata",3,11.17076049
+"Temperate (Colorado, USA)","Almont","060210-17","Asteraceae","Artemisia","tridentata",3,12.78100825
+"Temperate (Colorado, USA)","Almont","060210-18","Asteraceae","Artemisia","tridentata",3,10.81915973
+"Temperate (Colorado, USA)","Almont","060210-28","Asteraceae","Psilochenia","occidentalis",1,8.471542163
+"Temperate (Colorado, USA)","Almont","060210-29","Asteraceae","Psilochenia","occidentalis",1,8.520712556
+"Temperate (Colorado, USA)","Almont","060210-30","Asteraceae","Psilochenia","occidentalis",1,7.408766731
+"Temperate (Colorado, USA)","Almont","060210-31","Asteraceae","Psilochenia","occidentalis",2,6.872984738
+"Temperate (Colorado, USA)","Almont","060210-32","Asteraceae","Psilochenia","occidentalis",2,8.453892488
+"Temperate (Colorado, USA)","Almont","060210-33","Asteraceae","Psilochenia","occidentalis",2,7.493103913
+"Temperate (Colorado, USA)","Almont","060210-34","Asteraceae","Psilochenia","occidentalis",3,12.03216852
+"Temperate (Colorado, USA)","Almont","060210-35","Asteraceae","Psilochenia","occidentalis",3,9.0148427
+"Temperate (Colorado, USA)","Almont","060210-36","Asteraceae","Psilochenia","occidentalis",3,9.951631459
+"Temperate (Colorado, USA)","Almont","060210-37","Rosaceae","Amelanchier","utahensis",1,11.90123096
+"Temperate (Colorado, USA)","Almont","060210-38","Rosaceae","Amelanchier","utahensis",1,13.87605921
+"Temperate (Colorado, USA)","Almont","060210-39","Rosaceae","Amelanchier","utahensis",1,10.4651611
+"Temperate (Colorado, USA)","Almont","060210-40","Rosaceae","Amelanchier","utahensis",2,12.4486372
+"Temperate (Colorado, USA)","Almont","060210-41","Rosaceae","Amelanchier","utahensis",2,11.97916461
+"Temperate (Colorado, USA)","Almont","060210-42","Rosaceae","Amelanchier","utahensis",2,11.19938559
+"Temperate (Colorado, USA)","Almont","060210-43","Rosaceae","Amelanchier","utahensis",3,11.26584632
+"Temperate (Colorado, USA)","Almont","060210-44","Rosaceae","Amelanchier","utahensis",3,10.29391824
+"Temperate (Colorado, USA)","Almont","060210-45","Rosaceae","Amelanchier","utahensis",3,12.21283912
+"Temperate (Colorado, USA)","Almont","060210-46","Scrophulariaceae","Castilleja","chromosa",1,10.82143206
+"Temperate (Colorado, USA)","Almont","060210-47","Scrophulariaceae","Castilleja","chromosa",1,12.4555612
+"Temperate (Colorado, USA)","Almont","060210-49","Scrophulariaceae","Castilleja","chromosa",2,13.25613618
+"Temperate (Colorado, USA)","Almont","060210-50","Scrophulariaceae","Castilleja","chromosa",2,9.956280881
+"Temperate (Colorado, USA)","Almont","060210-51","Scrophulariaceae","Castilleja","chromosa",2,14.49682171
+"Temperate (Colorado, USA)","Almont","060210-52","Scrophulariaceae","Castilleja","chromosa",3,10.7826161
+"Temperate (Colorado, USA)","Almont","060210-53","Scrophulariaceae","Castilleja","chromosa",3,15.4852117
+"Temperate (Colorado, USA)","Almont","060210-54","Scrophulariaceae","Castilleja","chromosa",3,16.74976177
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-1","Valerianaceae","Valeriana","occidentalis",1,7.665322567
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-2","Valerianaceae","Valeriana","occidentalis",1,7.300748145
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-3","Valerianaceae","Valeriana","occidentalis",1,8.019547726
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-4","Valerianaceae","Valeriana","occidentalis",2,8.855343607
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-5","Valerianaceae","Valeriana","occidentalis",2,9.347622921
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-6","Valerianaceae","Valeriana","occidentalis",2,6.434377
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-7","Valerianaceae","Valeriana","occidentalis",3,9.106091474
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-8","Valerianaceae","Valeriana","occidentalis",3,8.552846054
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-9","Valerianaceae","Valeriana","occidentalis",3,8.099848014
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-10","Brassicaceae","Thlaspi","montanum",1,10.10635935
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-11","Brassicaceae","Thlaspi","montanum",1,8.002656078
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-12","Brassicaceae","Thlaspi","montanum",1,7.871185991
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-13","Brassicaceae","Thlaspi","montanum",2,10.58251325
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-14","Brassicaceae","Thlaspi","montanum",2,8.14702101
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-15","Brassicaceae","Thlaspi","montanum",2,10.39457973
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-16","Brassicaceae","Thlaspi","montanum",3,8.121362277
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-17","Brassicaceae","Thlaspi","montanum",3,12.52517727
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-18","Brassicaceae","Thlaspi","montanum",3,9.408056339
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-19","Fabaceae","Lupinus","bakeri",1,8.913025964
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-20","Fabaceae","Lupinus","bakeri",1,6.885768424
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-21","Fabaceae","Lupinus","bakeri",1,9.874222866
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-22","Fabaceae","Lupinus","bakeri",2,9.436033708
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-23","Fabaceae","Lupinus","bakeri",2,9.390116506
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-24","Fabaceae","Lupinus","bakeri",2,11.74116434
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-25","Fabaceae","Lupinus","bakeri",3,12.19550316
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-26","Fabaceae","Lupinus","bakeri",3,11.70696591
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-27","Fabaceae","Lupinus","bakeri",3,11.11336198
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-28","Rosaceae","Geum","triflorum",1,11.2063096
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-29","Rosaceae","Geum","triflorum",1,9.392101313
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-30","Rosaceae","Geum","triflorum",1,7.161707277
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-31","Rosaceae","Geum","triflorum",2,10.34197916
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-32","Rosaceae","Geum","triflorum",2,12.34015249
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-34","Rosaceae","Geum","triflorum",3,8.959340391
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-35","Rosaceae","Geum","triflorum",3,11.18571322
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-36","Rosaceae","Geum","triflorum",3,11.59295796
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-39","Ranunculaceae","Delphinium","nuttalianum",1,9.255031943
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-40","Ranunculaceae","Delphinium","nuttalianum",2,9.159032947
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-42","Ranunculaceae","Delphinium","nuttalianum",2,7.690488141
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060710-45","Ranunculaceae","Delphinium","nuttalianum",3,10.2216313
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-1","Asteraceae","Senecio","integerrimus",1,1.097363384
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-2","Asteraceae","Senecio","integerrimus",1,4.826924231
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-3","Asteraceae","Senecio","integerrimus",1,6.208905087
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-4","Asteraceae","Senecio","integerrimus",2,7.461017516
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-5","Asteraceae","Senecio","integerrimus",2,6.046105362
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-6","Asteraceae","Senecio","integerrimus",2,6.798101516
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-7","Asteraceae","Senecio","integerrimus",3,8.326659424
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-8","Asteraceae","Senecio","integerrimus",3,9.093710903
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-9","Asteraceae","Senecio","integerrimus",3,6.164824482
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-16","Asteraceae","Chrysanthemum","leucanthemum",3,5.750163194
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-17","Asteraceae","Chrysanthemum","leucanthemum",3,6.34803344
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-18","Asteraceae","Chrysanthemum","leucanthemum",3,4.212965893
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-19","Valerianaceae","Valeriana","edulis",1,6.378293382
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-20","Valerianaceae","Valeriana","edulis",1,9.405352722
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-22","Valerianaceae","Valeriana","edulis",2,9.231080037
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-23","Valerianaceae","Valeriana","edulis",2,9.62112548
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-24","Valerianaceae","Valeriana","edulis",2,9.995316585
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-25","Valerianaceae","Valeriana","edulis",3,7.034652277
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-26","Valerianaceae","Valeriana","edulis",3,9.756316794
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-27","Valerianaceae","Valeriana","edulis",3,8.910707086
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-28","Asteraceae","Taraxacum","officinale",1,7.737367689
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-29","Asteraceae","Taraxacum","officinale",1,4.6761765
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-30","Asteraceae","Taraxacum","officinale",1,8.534498855
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-31","Asteraceae","Taraxacum","officinale",2,12.41492925
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-32","Asteraceae","Taraxacum","officinale",2,9.381965649
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-33","Asteraceae","Taraxacum","officinale",2,8.346359277
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-34","Asteraceae","Taraxacum","officinale",3,10.69009925
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-35","Asteraceae","Taraxacum","officinale",3,10.79798628
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-36","Asteraceae","Taraxacum","officinale",3,11.58500693
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-37","Rosaceae","Pentaphylloides","floribunda",1,11.72179285
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-38","Rosaceae","Pentaphylloides","floribunda",1,10.20139283
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-39","Rosaceae","Pentaphylloides","floribunda",1,11.70057481
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-41","Rosaceae","Pentaphylloides","floribunda",2,13.34647383
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-42","Rosaceae","Pentaphylloides","floribunda",2,12.23245817
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-43","Rosaceae","Pentaphylloides","floribunda",3,15.16770561
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-44","Rosaceae","Pentaphylloides","floribunda",3,13.80152553
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-45","Rosaceae","Pentaphylloides","floribunda",3,14.45554781
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-47","Salicaceae","Salix","wolfii",1,10.13476612
+"Temperate (Colorado, USA)","Crested Butte Land Trust","060810-48","Salicaceae","Salix","wolfii",1,9.803531172
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-1","Geraniaceae","Geranium","viscossimum",1,9.785209201
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-2","Geraniaceae","Geranium","viscossimum",1,9.983017257
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-3","Geraniaceae","Geranium","viscossimum",1,8.497836399
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-4","Geraniaceae","Geranium","viscossimum",2,10.15314541
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-5","Geraniaceae","Geranium","viscossimum",2,10.62740286
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-6","Geraniaceae","Geranium","viscossimum",2,8.598396752
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-7","Geraniaceae","Geranium","viscossimum",3,9.783211999
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-8","Geraniaceae","Geranium","viscossimum",3,8.63380461
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-9","Geraniaceae","Geranium","viscossimum",3,9.745800201
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-10","Asteraceae","Hymenoxys","hoopesii",1,7.815486212
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-11","Asteraceae","Hymenoxys","hoopesii",1,10.3189334
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-12","Asteraceae","Hymenoxys","hoopesii",1,7.609433797
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-13","Asteraceae","Hymenoxys","hoopesii",2,7.858366056
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-14","Asteraceae","Hymenoxys","hoopesii",2,7.213006593
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-15","Asteraceae","Hymenoxys","hoopesii",2,7.844207891
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-16","Asteraceae","Hymenoxys","hoopesii",3,7.42726662
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-17","Asteraceae","Hymenoxys","hoopesii",3,6.754684675
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-18","Asteraceae","Hymenoxys","hoopesii",3,6.743305502
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-19","Fabaceae","Vicia","americana",1,9.31259207
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-20","Fabaceae","Vicia","americana",1,7.141073151
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-21","Fabaceae","Vicia","americana",1,8.242906193
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-22","Fabaceae","Vicia","americana",2,10.04807378
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-23","Fabaceae","Vicia","americana",2,8.676706863
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-24","Fabaceae","Vicia","americana",2,6.927114233
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-25","Fabaceae","Vicia","americana",3,9.456349655
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-26","Fabaceae","Vicia","americana",3,8.803115042
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-27","Fabaceae","Vicia","americana",3,8.416425373
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-28","Fabaceae","Lathyrus","lanzwertii",1,5.014799019
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-29","Fabaceae","Lathyrus","lanzwertii",1,6.684126237
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-30","Fabaceae","Lathyrus","lanzwertii",1,6.696750509
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-31","Fabaceae","Lathyrus","lanzwertii",2,5.741242723
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-32","Fabaceae","Lathyrus","lanzwertii",2,7.994710135
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-33","Fabaceae","Lathyrus","lanzwertii",2,6.573717642
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-34","Fabaceae","Lathyrus","lanzwertii",3,6.332644693
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-36","Fabaceae","Lathyrus","lanzwertii",3,6.531328394
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-37","Asteraceae","Erigeron","speciosus",1,14.13413132
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-38","Asteraceae","Erigeron","speciosus",1,12.04481332
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-39","Asteraceae","Erigeron","speciosus",1,9.732065868
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-40","Asteraceae","Erigeron","speciosus",2,9.753555138
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-41","Asteraceae","Erigeron","speciosus",2,9.502145541
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-42","Asteraceae","Erigeron","speciosus",2,9.470393876
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-43","Asteraceae","Erigeron","speciosus",3,10.38996297
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-44","Asteraceae","Erigeron","speciosus",3,10.27666664
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-45","Asteraceae","Erigeron","speciosus",3,8.134907484
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-46","Rosaceae","Potentilla","gracilis",1,10.01821241
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-47","Rosaceae","Potentilla","gracilis",1,12.83754133
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-48","Rosaceae","Potentilla","gracilis",1,7.350788467
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-49","Rosaceae","Potentilla","gracilis",2,12.52336359
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-50","Rosaceae","Potentilla","gracilis",2,13.17266575
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-51","Rosaceae","Potentilla","gracilis",2,11.10241256
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-52","Rosaceae","Potentilla","gracilis",3,11.74162411
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-53","Rosaceae","Potentilla","gracilis",3,9.470800834
+"Temperate (Colorado, USA)","Washington Gulch Road","061110-54","Rosaceae","Potentilla","gracilis",3,12.36945686
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-10","Asteraceae","Chrysothamnus","parryi",1,9.268263231
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-11","Asteraceae","Chrysothamnus","parryi",1,9.584047402
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-12","Asteraceae","Chrysothamnus","parryi",1,9.18553471
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-13","Asteraceae","Chrysothamnus","parryi",2,7.40287441
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-14","Asteraceae","Chrysothamnus","parryi",2,13.20512683
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-15","Asteraceae","Chrysothamnus","parryi",2,7.306559439
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-16","Asteraceae","Chrysothamnus","parryi",3,4.808443839
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-17","Asteraceae","Chrysothamnus","parryi",3,7.153556776
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-18","Asteraceae","Chrysothamnus","parryi",3,9.033563549
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-19","Asteraceae","Achillea","millefolia",1,5.908189858
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-20","Asteraceae","Achillea","millefolia",1,6.286615866
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-21","Asteraceae","Achillea","millefolia",1,8.521918388
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-22","Asteraceae","Achillea","millefolia",2,7.662348208
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-23","Asteraceae","Achillea","millefolia",2,11.8652009
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-24","Asteraceae","Achillea","millefolia",2,11.5882514
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-25","Asteraceae","Achillea","millefolia",3,5.844215419
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-26","Asteraceae","Achillea","millefolia",3,10.46059126
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-27","Asteraceae","Achillea","millefolia",3,6.710038837
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-37","Violaceae","Viola","sororia",1,9.18467673
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-38","Violaceae","Viola","sororia",1,6.783838259
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-39","Violaceae","Viola","sororia",1,8.619217097
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-40","Violaceae","Viola","sororia",2,9.99250322
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-41","Violaceae","Viola","sororia",2,6.179984911
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-42","Violaceae","Viola","sororia",2,8.505607254
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-43","Violaceae","Viola","sororia",3,8.450258922
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-44","Violaceae","Viola","sororia",3,6.929750992
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-45","Violaceae","Viola","sororia",3,7.118556776
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-46","Salicaceae","Salix","tallmorph",1,8.809910887
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-47","Salicaceae","Salix","tallmorph",1,10.60665582
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-48","Salicaceae","Salix","tallmorph",1,5.269507357
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-49","Salicaceae","Salix","tallmorph",2,14.42875695
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-50","Salicaceae","Salix","tallmorph",2,7.735057284
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-51","Salicaceae","Salix","tallmorph",2,11.05190875
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-52","Salicaceae","Salix","tallmorph",3,10.64853735
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-53","Salicaceae","Salix","tallmorph",3,9.183596872
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-54","Salicaceae","Salix","tallmorph",3,10.10575925
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-55","Salicaceae","Salix","shortmorph",1,8.445650516
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-56","Salicaceae","Salix","shortmorph",1,9.128921059
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-57","Salicaceae","Salix","shortmorph",1,9.020177585
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-58","Salicaceae","Salix","shortmorph",2,8.612293035
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-59","Salicaceae","Salix","shortmorph",2,7.026203335
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-60","Salicaceae","Salix","shortmorph",2,6.593504171
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-61","Salicaceae","Salix","shortmorph",3,7.205206124
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-62","Salicaceae","Salix","shortmorph",3,6.961435267
+"Temperate (Colorado, USA)","Washington Gulch Road","061510-63","Salicaceae","Salix","shortmorph",3,7.842596353
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-7","Apiaceae","Ligusticum","tenuifolium",1,5.725214213
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-8","Apiaceae","Ligusticum","tenuifolium",1,8.95413683
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-9","Apiaceae","Ligusticum","tenuifolium",1,8.633226584
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-10","Apiaceae","Ligusticum","tenuifolium",2,8.563514566
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-11","Apiaceae","Ligusticum","tenuifolium",2,8.112836445
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-12","Apiaceae","Ligusticum","tenuifolium",2,8.050130515
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-13","Apiaceae","Ligusticum","tenuifolium",3,5.620201691
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-14","Apiaceae","Ligusticum","tenuifolium",3,7.047597064
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-15","Apiaceae","Ligusticum","tenuifolium",3,6.726808945
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-16","Boraginaceae","Hydrophyllum","capitatum",1,4.370957961
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-17","Boraginaceae","Hydrophyllum","capitatum",1,5.556726937
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-19","Boraginaceae","Hydrophyllum","capitatum",2,8.818615063
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-20","Boraginaceae","Hydrophyllum","capitatum",2,6.14648469
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-21","Boraginaceae","Hydrophyllum","capitatum",2,4.037844474
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-22","Boraginaceae","Hydrophyllum","capitatum",3,6.82524175
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-23","Boraginaceae","Hydrophyllum","capitatum",3,10.31668575
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-24","Boraginaceae","Hydrophyllum","capitatum",3,6.097945889
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-25","Ranunculaceae","Aquilegia","coerulea",1,9.743867998
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-26","Ranunculaceae","Aquilegia","coerulea",1,12.73984982
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-27","Ranunculaceae","Aquilegia","coerulea",1,8.388704318
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-28","Ranunculaceae","Aquilegia","coerulea",2,9.629526798
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-29","Ranunculaceae","Aquilegia","coerulea",2,9.51962295
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-30","Ranunculaceae","Aquilegia","coerulea",2,12.82674201
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-31","Ranunculaceae","Aquilegia","coerulea",3,8.178433848
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-32","Ranunculaceae","Aquilegia","coerulea",3,11.75671804
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-33","Ranunculaceae","Aquilegia","coerulea",3,10.78969055
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-34","Grossulariaceae","Ribes","montigenum",1,7.485551023
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-35","Grossulariaceae","Ribes","montigenum",1,9.201048904
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-36","Grossulariaceae","Ribes","montigenum",1,8.677429809
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-37","Grossulariaceae","Ribes","montigenum",2,7.172814531
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-38","Grossulariaceae","Ribes","montigenum",2,8.222828879
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-39","Grossulariaceae","Ribes","montigenum",2,6.525308532
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-40","Grossulariaceae","Ribes","montigenum",3,7.241606863
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-41","Grossulariaceae","Ribes","montigenum",3,7.586338439
+"Temperate (Colorado, USA)","Across from Pfeiler home","061710-42","Grossulariaceae","Ribes","montigenum",3,7.255748995
+"Temperate (Colorado, USA)","Painter Boy","061710-43","Papaveraceae","Corydalis","caseana",1,6.700043656
+"Temperate (Colorado, USA)","Painter Boy","061710-44","Papaveraceae","Corydalis","caseana",1,4.496089462
+"Temperate (Colorado, USA)","Painter Boy","061710-45","Papaveraceae","Corydalis","caseana",1,5.785548299
+"Temperate (Colorado, USA)","Painter Boy","061710-47","Papaveraceae","Corydalis","caseana",2,7.21203801
+"Temperate (Colorado, USA)","Painter Boy","061710-48","Papaveraceae","Corydalis","caseana",2,8.398446199
+"Temperate (Colorado, USA)","Painter Boy","061710-49","Papaveraceae","Corydalis","caseana",3,8.872900368
+"Temperate (Colorado, USA)","Painter Boy","061710-50","Papaveraceae","Corydalis","caseana",3,8.25531697
+"Temperate (Colorado, USA)","Painter Boy","061710-51","Papaveraceae","Corydalis","caseana",3,9.63890344
+"Temperate (Colorado, USA)","Painter Boy","061710-61","Gentianaceae","Frasera","speciosa",1,7.174893373
+"Temperate (Colorado, USA)","Painter Boy","061710-62","Gentianaceae","Frasera","speciosa",1,5.152615313
+"Temperate (Colorado, USA)","Painter Boy","061710-63","Gentianaceae","Frasera","speciosa",1,7.415170013
+"Temperate (Colorado, USA)","Painter Boy","061710-64","Gentianaceae","Frasera","speciosa",2,6.038193123
+"Temperate (Colorado, USA)","Painter Boy","061710-65","Gentianaceae","Frasera","speciosa",2,7.441491298
+"Temperate (Colorado, USA)","Painter Boy","061710-66","Gentianaceae","Frasera","speciosa",2,7.216468911
+"Temperate (Colorado, USA)","Painter Boy","061710-67","Gentianaceae","Frasera","speciosa",3,7.837375272
+"Temperate (Colorado, USA)","Painter Boy","061710-68","Gentianaceae","Frasera","speciosa",3,7.755294307
+"Temperate (Colorado, USA)","Painter Boy","061710-69","Gentianaceae","Frasera","speciosa",3,5.940731125
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-1","Apiaceae","Osmorhiza","occidentalis",1,8.236585183
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-2","Apiaceae","Osmorhiza","occidentalis",1,9.036256278
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-3","Apiaceae","Osmorhiza","occidentalis",1,7.88335683
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-4","Apiaceae","Osmorhiza","occidentalis",2,9.447280095
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-5","Apiaceae","Osmorhiza","occidentalis",2,8.679458927
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-6","Apiaceae","Osmorhiza","occidentalis",2,7.78849954
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-7","Apiaceae","Osmorhiza","occidentalis",3,7.676253436
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-8","Apiaceae","Osmorhiza","occidentalis",3,8.315453316
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-9","Apiaceae","Osmorhiza","occidentalis",3,7.491602406
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-10","Salicaceae","Populus","tremuloides",1,13.30021881
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-11","Salicaceae","Populus","tremuloides",1,12.51951676
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-12","Salicaceae","Populus","tremuloides",1,15.34707295
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-13","Salicaceae","Populus","tremuloides",2,19.18094498
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-14","Salicaceae","Populus","tremuloides",2,15.73677085
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-15","Salicaceae","Populus","tremuloides",2,15.99590083
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-16","Salicaceae","Populus","tremuloides",3,16.67147181
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-17","Salicaceae","Populus","tremuloides",3,15.13438764
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-18","Salicaceae","Populus","tremuloides",3,16.25251853
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-19","Ranunculaceae","Thalictrum","fendleri",1,10.36300382
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-21","Ranunculaceae","Thalictrum","fendleri",1,7.735612894
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-22","Ranunculaceae","Thalictrum","fendleri",2,8.895481759
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-23","Ranunculaceae","Thalictrum","fendleri",2,9.429744591
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-24","Ranunculaceae","Thalictrum","fendleri",2,10.15204952
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-25","Ranunculaceae","Thalictrum","fendleri",3,8.672368539
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-26","Ranunculaceae","Thalictrum","fendleri",3,9.444559208
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-27","Ranunculaceae","Thalictrum","fendleri",3,15.14754772
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-28","Rubiaceae","Galium","septentrional",1,7.256910725
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-29","Rubiaceae","Galium","septentrional",1,6.659876382
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-30","Rubiaceae","Galium","septentrional",1,7.084575577
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-31","Rubiaceae","Galium","septentrional",2,9.89731776
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-32","Rubiaceae","Galium","septentrional",2,7.342878578
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-33","Rubiaceae","Galium","septentrional",2,7.285893169
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-34","Rubiaceae","Galium","septentrional",3,7.716293414
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-35","Rubiaceae","Galium","septentrional",3,7.600345154
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-36","Rubiaceae","Galium","septentrional",3,2.14668448
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-46","Geraniaceae","Geranium","richardsonii",1,5.985601796
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-47","Geraniaceae","Geranium","richardsonii",1,9.24121968
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-49","Geraniaceae","Geranium","richardsonii",2,5.233062852
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-50","Geraniaceae","Geranium","richardsonii",2,6.118109787
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-51","Geraniaceae","Geranium","richardsonii",2,7.423360452
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-52","Geraniaceae","Geranium","richardsonii",3,7.01457282
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-53","Geraniaceae","Geranium","richardsonii",3,7.577574066
+"Temperate (Colorado, USA)","Cutoff trail to Judd Falls","061810-54","Geraniaceae","Geranium","richardsonii",3,5.5407223
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-1","Onagraceae","Epilobium","angustifolium",1,8.228768423
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-2","Onagraceae","Epilobium","angustifolium",1,9.874143504
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-3","Onagraceae","Epilobium","angustifolium",1,5.942299511
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-4","Onagraceae","Epilobium","angustifolium",2,7.720961773
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-5","Onagraceae","Epilobium","angustifolium",2,8.915914513
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-6","Onagraceae","Epilobium","angustifolium",2,7.313626676
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-7","Onagraceae","Epilobium","angustifolium",3,13.17960888
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-8","Onagraceae","Epilobium","angustifolium",3,11.33741656
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-9","Onagraceae","Epilobium","angustifolium",3,9.572955425
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-10","Apiaceae","Heracleum","sphondylium",1,2.147736396
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-11","Apiaceae","Heracleum","sphondylium",1,8.652159835
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-12","Apiaceae","Heracleum","sphondylium",1,7.473142399
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-13","Apiaceae","Heracleum","sphondylium",2,7.48199838
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-14","Apiaceae","Heracleum","sphondylium",2,6.413365165
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-15","Apiaceae","Heracleum","sphondylium",2,6.096944139
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-16","Apiaceae","Heracleum","sphondylium",3,10.9727532
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-17","Apiaceae","Heracleum","sphondylium",3,7.787345845
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-18","Apiaceae","Heracleum","sphondylium",3,8.308465126
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-19","Boraginaceae","Mertensia","fusiformis",1,9.562519205
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-20","Boraginaceae","Mertensia","fusiformis",1,7.420246649
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-21","Boraginaceae","Mertensia","fusiformis",1,7.100209815
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-22","Boraginaceae","Mertensia","fusiformis",2,6.67059919
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-23","Boraginaceae","Mertensia","fusiformis",2,4.68710179
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-24","Boraginaceae","Mertensia","fusiformis",2,8.050933516
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-25","Boraginaceae","Mertensia","fusiformis",3,8.587278766
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-26","Boraginaceae","Mertensia","fusiformis",3,6.722559563
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-27","Boraginaceae","Mertensia","fusiformis",3,8.81359133
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-28","Crassulaceae","Sedum","rosea",1,5.751468106
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-29","Crassulaceae","Sedum","rosea",1,4.210570259
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-30","Crassulaceae","Sedum","rosea",1,3.485067468
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-31","Crassulaceae","Sedum","rosea",2,6.535130982
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-32","Crassulaceae","Sedum","rosea",2,5.955415154
+"Temperate (Colorado, USA)","Across from Pfeiler home","062210-33","Crassulaceae","Sedum","rosea",2,5.632865762
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-1","Adoxaceae","Sambucus","racemosa",1,9.25915418
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-2","Adoxaceae","Sambucus","racemosa",1,9.043413553
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-3","Adoxaceae","Sambucus","racemosa",1,8.270415014
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-4","Adoxaceae","Sambucus","racemosa",2,7.158290738
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-5","Adoxaceae","Sambucus","racemosa",2,9.274654648
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-6","Adoxaceae","Sambucus","racemosa",2,8.424919679
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-7","Adoxaceae","Sambucus","racemosa",3,6.643559591
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-8","Adoxaceae","Sambucus","racemosa",3,6.357632195
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-9","Adoxaceae","Sambucus","racemosa",3,6.281647933
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-10","Orobanchaceae","Pedicularis","bracteosa",1,6.662415397
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-11","Orobanchaceae","Pedicularis","bracteosa",1,9.663415384
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-12","Orobanchaceae","Pedicularis","bracteosa",1,6.389125372
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-13","Orobanchaceae","Pedicularis","bracteosa",2,9.976676112
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-14","Orobanchaceae","Pedicularis","bracteosa",2,8.452171353
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-15","Orobanchaceae","Pedicularis","bracteosa",2,10.49883617
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-16","Orobanchaceae","Pedicularis","bracteosa",3,7.860339169
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-17","Orobanchaceae","Pedicularis","bracteosa",3,8.712237067
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-18","Orobanchaceae","Pedicularis","bracteosa",3,11.26946982
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-37","Rosaceae","Fragaria","virginiana",1,9.61163885
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-38","Rosaceae","Fragaria","virginiana",1,8.24464358
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-39","Rosaceae","Fragaria","virginiana",1,9.670072686
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-40","Rosaceae","Fragaria","virginiana",2,8.871832654
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-41","Rosaceae","Fragaria","virginiana",2,9.01062772
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-42","Rosaceae","Fragaria","virginiana",2,8.832530675
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-43","Rosaceae","Fragaria","virginiana",3,8.678981206
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-44","Rosaceae","Fragaria","virginiana",3,8.335653499
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-45","Rosaceae","Fragaria","virginiana",3,9.804540158
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-55","Asteraceae","Arnica","cordifolia",1,5.83674803
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-56","Asteraceae","Arnica","cordifolia",1,7.497023729
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-57","Asteraceae","Arnica","cordifolia",1,7.83559879
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-58","Asteraceae","Arnica","cordifolia",2,6.438083646
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-59","Asteraceae","Arnica","cordifolia",2,5.673070811
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-60","Asteraceae","Arnica","cordifolia",2,6.558041671
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-61","Asteraceae","Arnica","cordifolia",3,6.077952634
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-62","Asteraceae","Arnica","cordifolia",3,5.203248687
+"Temperate (Colorado, USA)","Stream near billy barrs house","062410-63","Asteraceae","Arnica","cordifolia",3,5.992165342
+"Temperate (Colorado, USA)","Gothic townsite","062710-1","Polemoniaceae","Polemonium","foliosissimum",1,5.221246856
+"Temperate (Colorado, USA)","Gothic townsite","062710-2","Polemoniaceae","Polemonium","foliosissimum",1,4.821940461
+"Temperate (Colorado, USA)","Gothic townsite","062710-3","Polemoniaceae","Polemonium","foliosissimum",1,5.856004553
+"Temperate (Colorado, USA)","Gothic townsite","062710-4","Polemoniaceae","Polemonium","foliosissimum",2,5.596468009
+"Temperate (Colorado, USA)","Gothic townsite","062710-5","Polemoniaceae","Polemonium","foliosissimum",2,5.697320907
+"Temperate (Colorado, USA)","Gothic townsite","062710-6","Polemoniaceae","Polemonium","foliosissimum",2,6.420337006
+"Temperate (Colorado, USA)","Gothic townsite","062710-7","Polemoniaceae","Polemonium","foliosissimum",3,7.380458037
+"Temperate (Colorado, USA)","Gothic townsite","062710-8","Polemoniaceae","Polemonium","foliosissimum",3,5.340029769
+"Temperate (Colorado, USA)","Gothic townsite","062710-9","Polemoniaceae","Polemonium","foliosissimum",3,5.822577257
+"Temperate (Colorado, USA)","Gothic townsite","062710-10","Berberidaceae","Mahonia","repens",1,7.553411208
+"Temperate (Colorado, USA)","Gothic townsite","062710-11","Berberidaceae","Mahonia","repens",1,8.20376277
+"Temperate (Colorado, USA)","Gothic townsite","062710-12","Berberidaceae","Mahonia","repens",1,7.073318001
+"Temperate (Colorado, USA)","Gothic townsite","062710-13","Berberidaceae","Mahonia","repens",2,7.804470918
+"Temperate (Colorado, USA)","Gothic townsite","062710-14","Berberidaceae","Mahonia","repens",2,7.52862627
+"Temperate (Colorado, USA)","Gothic townsite","062710-15","Berberidaceae","Mahonia","repens",2,7.728676665
+"Temperate (Colorado, USA)","Gothic townsite","062710-16","Berberidaceae","Mahonia","repens",3,7.008514621
+"Temperate (Colorado, USA)","Gothic townsite","062710-17","Berberidaceae","Mahonia","repens",3,7.401640115
+"Temperate (Colorado, USA)","Gothic townsite","062710-18","Berberidaceae","Mahonia","repens",3,7.721442864
+"Temperate (Colorado, USA)","Gothic townsite","062710-19","Rosaceae","Rubus","idaeus",1,7.221696535
+"Temperate (Colorado, USA)","Gothic townsite","062710-20","Rosaceae","Rubus","idaeus",1,8.031018892
+"Temperate (Colorado, USA)","Gothic townsite","062710-21","Rosaceae","Rubus","idaeus",1,9.101906538
+"Temperate (Colorado, USA)","Gothic townsite","062710-22","Rosaceae","Rubus","idaeus",2,7.803139013
+"Temperate (Colorado, USA)","Gothic townsite","062710-23","Rosaceae","Rubus","idaeus",2,9.542562692
+"Temperate (Colorado, USA)","Gothic townsite","062710-24","Rosaceae","Rubus","idaeus",2,7.677138592
+"Temperate (Colorado, USA)","Gothic townsite","062710-25","Rosaceae","Rubus","idaeus",3,7.237262809
+"Temperate (Colorado, USA)","Gothic townsite","062710-26","Rosaceae","Rubus","idaeus",3,8.185668191
+"Temperate (Colorado, USA)","Gothic townsite","062710-27","Rosaceae","Rubus","idaeus",3,9.673998707
+"Temperate (Colorado, USA)","Gothic road north","062710-37","Celastraceae","Paxistima","myrsinites",1,5.646583387
+"Temperate (Colorado, USA)","Gothic road north","062710-38","Celastraceae","Paxistima","myrsinites",1,5.197547537
+"Temperate (Colorado, USA)","Gothic road north","062710-39","Celastraceae","Paxistima","myrsinites",1,4.691242462
+"Temperate (Colorado, USA)","Gothic road north","062710-40","Celastraceae","Paxistima","myrsinites",2,5.046649752
+"Temperate (Colorado, USA)","Gothic road north","062710-41","Celastraceae","Paxistima","myrsinites",2,5.196997669
+"Temperate (Colorado, USA)","Gothic road north","062710-42","Celastraceae","Paxistima","myrsinites",2,10.97038684
+"Temperate (Colorado, USA)","Gothic road north","062710-43","Celastraceae","Paxistima","myrsinites",3,4.697861236
+"Temperate (Colorado, USA)","Gothic road north","062710-44","Celastraceae","Paxistima","myrsinites",3,4.779175967
+"Temperate (Colorado, USA)","Gothic road north","062710-45","Celastraceae","Paxistima","myrsinites",3,4.839369338
+"Temperate (Colorado, USA)","Gothic road north","062710-46","Caprifoliaceae","Loniceria","involucrata",1,7.296212794
+"Temperate (Colorado, USA)","Gothic road north","062710-47","Caprifoliaceae","Loniceria","involucrata",1,6.662676511
+"Temperate (Colorado, USA)","Gothic road north","062710-48","Caprifoliaceae","Loniceria","involucrata",1,8.916687271
+"Temperate (Colorado, USA)","Gothic road north","062710-49","Caprifoliaceae","Loniceria","involucrata",2,9.048531681
+"Temperate (Colorado, USA)","Gothic road north","062710-50","Caprifoliaceae","Loniceria","involucrata",2,5.227007233
+"Temperate (Colorado, USA)","Gothic road north","062710-51","Caprifoliaceae","Loniceria","involucrata",2,8.637062842
+"Temperate (Colorado, USA)","Gothic road north","062710-52","Caprifoliaceae","Loniceria","involucrata",3,7.461726311
+"Temperate (Colorado, USA)","Gothic road north","062710-53","Caprifoliaceae","Loniceria","involucrata",3,7.93823949
+"Temperate (Colorado, USA)","Gothic road north","062710-54","Caprifoliaceae","Loniceria","involucrata",3,7.675369539
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-1","Asteraceae","Artemisia","frigida",1,6.488479735
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-2","Asteraceae","Artemisia","frigida",1,9.259266422
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-3","Asteraceae","Artemisia","frigida",1,7.479877171
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-4","Asteraceae","Artemisia","frigida",2,5.752498296
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-5","Asteraceae","Artemisia","frigida",2,9.242763326
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-6","Asteraceae","Artemisia","frigida",2,7.423822895
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-7","Asteraceae","Artemisia","frigida",3,5.955023468
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-8","Asteraceae","Artemisia","frigida",3,9.607904383
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-9","Asteraceae","Artemisia","frigida",3,7.613744713
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-10","Fabaceae","Trifolium","repens",1,11.39364846
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-11","Fabaceae","Trifolium","repens",1,9.275979597
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-12","Fabaceae","Trifolium","repens",1,11.25636863
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-13","Fabaceae","Trifolium","repens",2,9.558553271
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-14","Fabaceae","Trifolium","repens",2,9.717767639
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-15","Fabaceae","Trifolium","repens",2,9.894116793
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-16","Fabaceae","Trifolium","repens",3,9.718408222
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-17","Fabaceae","Trifolium","repens",3,9.601825633
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-18","Fabaceae","Trifolium","repens",3,8.877555876
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-19","Onagraceae","Epilobium","angustifolium",1,8.462535829
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-20","Onagraceae","Epilobium","angustifolium",1,7.699537473
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-21","Onagraceae","Epilobium","angustifolium",1,6.700067517
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-22","Onagraceae","Epilobium","angustifolium",2,8.855590724
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-23","Onagraceae","Epilobium","angustifolium",2,7.85469536
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-24","Onagraceae","Epilobium","angustifolium",2,7.249302394
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-25","Onagraceae","Epilobium","angustifolium",3,8.01545412
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-26","Onagraceae","Epilobium","angustifolium",3,7.413896407
+"Temperate (Colorado, USA)","Copper Creek trailhead road","063010-27","Onagraceae","Epilobium","angustifolium",3,6.954716051
+"Temperate (Colorado, USA)","Painter Boy","070110-1","Polygonaceae","Rumex","densiflorus",1,6.78814817
+"Temperate (Colorado, USA)","Painter Boy","070110-2","Polygonaceae","Rumex","densiflorus",1,6.398260063
+"Temperate (Colorado, USA)","Painter Boy","070110-3","Polygonaceae","Rumex","densiflorus",1,8.194911364
+"Temperate (Colorado, USA)","Painter Boy","070110-4","Polygonaceae","Rumex","densiflorus",2,7.244546721
+"Temperate (Colorado, USA)","Painter Boy","070110-5","Polygonaceae","Rumex","densiflorus",2,8.292992853
+"Temperate (Colorado, USA)","Painter Boy","070110-6","Polygonaceae","Rumex","densiflorus",2,6.675093348
+"Temperate (Colorado, USA)","Painter Boy","070110-7","Polygonaceae","Rumex","densiflorus",3,7.12942996
+"Temperate (Colorado, USA)","Painter Boy","070110-8","Polygonaceae","Rumex","densiflorus",3,6.935359844
+"Temperate (Colorado, USA)","Painter Boy","070110-9","Polygonaceae","Rumex","densiflorus",3,7.519098613
+"Temperate (Colorado, USA)","Painter Boy","070110-10","Gentianaceae","Gentiana","affinis",1,4.560660236
+"Temperate (Colorado, USA)","Painter Boy","070110-11","Gentianaceae","Gentiana","affinis",1,8.610848737
+"Temperate (Colorado, USA)","Painter Boy","070110-12","Gentianaceae","Gentiana","affinis",1,6.551916358
+"Temperate (Colorado, USA)","Painter Boy","070110-13","Gentianaceae","Gentiana","affinis",2,7.866490545
+"Temperate (Colorado, USA)","Painter Boy","070110-14","Gentianaceae","Gentiana","affinis",2,6.998739534
+"Temperate (Colorado, USA)","Painter Boy","070110-15","Gentianaceae","Gentiana","affinis",2,6.461375998
+"Temperate (Colorado, USA)","Painter Boy","070110-16","Gentianaceae","Gentiana","affinis",3,6.620916564
+"Temperate (Colorado, USA)","Painter Boy","070110-17","Gentianaceae","Gentiana","affinis",3,7.179493076
+"Temperate (Colorado, USA)","Painter Boy","070110-18","Gentianaceae","Gentiana","affinis",3,7.146380918
+"Temperate (Colorado, USA)","Painter Boy","070110-19","Asteraceae","Erigeron","sp2",1,7.944864262
+"Temperate (Colorado, USA)","Painter Boy","070110-21","Asteraceae","Erigeron","sp2",1,7.318415592
+"Temperate (Colorado, USA)","Painter Boy","070110-27","Asteraceae","Erigeron","sp2",3,7.408312081
+"Temperate (Colorado, USA)","Painter Boy","070110-28","Asteraceae","Heterotheca","villosa",1,10.1369278
+"Temperate (Colorado, USA)","Painter Boy","070110-29","Asteraceae","Heterotheca","villosa",1,10.40775569
+"Temperate (Colorado, USA)","Painter Boy","070110-30","Asteraceae","Heterotheca","villosa",1,7.034663945
+"Temperate (Colorado, USA)","Painter Boy","070110-31","Asteraceae","Heterotheca","villosa",2,10.6898269
+"Temperate (Colorado, USA)","Painter Boy","070110-32","Asteraceae","Heterotheca","villosa",2,9.710719469
+"Temperate (Colorado, USA)","Painter Boy","070110-33","Asteraceae","Heterotheca","villosa",2,9.357403649
+"Temperate (Colorado, USA)","Painter Boy","070110-34","Asteraceae","Heterotheca","villosa",3,10.52996858
+"Temperate (Colorado, USA)","Painter Boy","070110-35","Asteraceae","Heterotheca","villosa",3,10.31721945
+"Temperate (Colorado, USA)","Painter Boy","070110-36","Asteraceae","Heterotheca","villosa",3,7.309582966
+"Temperate (Colorado, USA)","Almont campground","071010-1","Rosaceae","Rosa","acicularis",1,19.00849663
+"Temperate (Colorado, USA)","Almont campground","071010-2","Rosaceae","Rosa","acicularis",1,16.23617553
+"Temperate (Colorado, USA)","Almont campground","071010-3","Rosaceae","Rosa","acicularis",1,19.25709636
+"Temperate (Colorado, USA)","Almont campground","071010-4","Rosaceae","Rosa","acicularis",2,14.56231456
+"Temperate (Colorado, USA)","Almont campground","071010-5","Rosaceae","Rosa","acicularis",2,15.32296123
+"Temperate (Colorado, USA)","Almont campground","071010-6","Rosaceae","Rosa","acicularis",2,14.0593756
+"Temperate (Colorado, USA)","Almont campground","071010-7","Rosaceae","Rosa","acicularis",3,13.8408473
+"Temperate (Colorado, USA)","Almont campground","071010-8","Rosaceae","Rosa","acicularis",3,12.8123512
+"Temperate (Colorado, USA)","Almont campground","071010-9","Rosaceae","Rosa","acicularis",3,13.73017188
+"Temperate (Colorado, USA)","Almont campground","071010-10","Rosaceae","Prunus","virginiana",1,10.42683029
+"Temperate (Colorado, USA)","Almont campground","071010-11","Rosaceae","Prunus","virginiana",1,11.6691747
+"Temperate (Colorado, USA)","Almont campground","071010-12","Rosaceae","Prunus","virginiana",1,9.270063962
+"Temperate (Colorado, USA)","Almont campground","071010-13","Rosaceae","Prunus","virginiana",2,8.483167169
+"Temperate (Colorado, USA)","Almont campground","071010-14","Rosaceae","Prunus","virginiana",2,9.254083109
+"Temperate (Colorado, USA)","Almont campground","071010-15","Rosaceae","Prunus","virginiana",2,10.68310555
+"Temperate (Colorado, USA)","Almont campground","071010-16","Rosaceae","Prunus","virginiana",3,9.331124767
+"Temperate (Colorado, USA)","Almont campground","071010-17","Rosaceae","Prunus","virginiana",3,10.4469911
+"Temperate (Colorado, USA)","Almont campground","071010-18","Rosaceae","Prunus","virginiana",3,8.513905612
+"Temperate (Colorado, USA)","Almont campground","071010-19","Rosaceae","Prunus","emarginata",1,9.159798495
+"Temperate (Colorado, USA)","Almont campground","071010-20","Rosaceae","Prunus","emarginata",1,9.052043527
+"Temperate (Colorado, USA)","Almont campground","071010-21","Rosaceae","Prunus","emarginata",1,9.204233239
+"Temperate (Colorado, USA)","Almont campground","071010-22","Rosaceae","Prunus","emarginata",2,8.988487064
+"Temperate (Colorado, USA)","Almont campground","071010-23","Rosaceae","Prunus","emarginata",2,9.127065735
+"Temperate (Colorado, USA)","Almont campground","071010-24","Rosaceae","Prunus","emarginata",2,8.969485534
+"Temperate (Colorado, USA)","Almont campground","071010-25","Rosaceae","Prunus","emarginata",3,9.471443574
+"Temperate (Colorado, USA)","Almont campground","071010-26","Rosaceae","Prunus","emarginata",3,9.985020619
+"Temperate (Colorado, USA)","Almont campground","071010-27","Rosaceae","Prunus","emarginata",3,8.276158586
+"Temperate (Colorado, USA)","Almont campground","071010-28","Salicaceae","Populus","angustifolia",1,11.73849057
+"Temperate (Colorado, USA)","Almont campground","071010-29","Salicaceae","Populus","angustifolia",1,10.79596479
+"Temperate (Colorado, USA)","Almont campground","071010-30","Salicaceae","Populus","angustifolia",1,10.34619691
+"Temperate (Colorado, USA)","Almont campground","071010-31","Salicaceae","Populus","angustifolia",2,11.09674631
+"Temperate (Colorado, USA)","Almont campground","071010-32","Salicaceae","Populus","angustifolia",2,10.84417774
+"Temperate (Colorado, USA)","Almont campground","071010-33","Salicaceae","Populus","angustifolia",2,10.07407629
+"Temperate (Colorado, USA)","Almont campground","071010-34","Salicaceae","Populus","angustifolia",3,13.03839321
+"Temperate (Colorado, USA)","Almont campground","071010-35","Salicaceae","Populus","angustifolia",3,13.75166483
+"Temperate (Colorado, USA)","Almont campground","071010-36","Salicaceae","Populus","angustifolia",3,12.32551504
+"Temperate (Colorado, USA)","Almont campground","071010-55","Malvaceae","Sphaeralcea","coccinea",1,20.69261516
+"Temperate (Colorado, USA)","Almont campground","071010-56","Malvaceae","Sphaeralcea","coccinea",1,15.59939743
+"Temperate (Colorado, USA)","Almont campground","071010-57","Malvaceae","Sphaeralcea","coccinea",1,16.9760808
+"Temperate (Colorado, USA)","Almont campground","071010-58","Malvaceae","Sphaeralcea","coccinea",2,17.95775608
+"Temperate (Colorado, USA)","Almont campground","071010-59","Malvaceae","Sphaeralcea","coccinea",2,23.67314378
+"Temperate (Colorado, USA)","Almont campground","071010-60","Malvaceae","Sphaeralcea","coccinea",2,18.17048891
+"Temperate (Colorado, USA)","Almont campground","071010-61","Malvaceae","Sphaeralcea","coccinea",3,26.37293227
+"Temperate (Colorado, USA)","Almont campground","071010-63","Malvaceae","Sphaeralcea","coccinea",3,19.31473166
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9536.3._","Clusiaceae","Hypericum","irazuense",3,3.345723816
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9537.1._","Escalloniaceae","Escallonia","myrtilloides",1,5.781899496
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9539.1._","Garryaceae","Garrya","laurifolia",1,3.721976525
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9539.2._","Garryaceae","Garrya","laurifolia",2,3.978391511
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9539.3._","Garryaceae","Garrya","laurifolia",3,4.376440603
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9540.1._","Ericaceae","Vaccinium","consanguineum",1,3.501957752
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9540.2._","Ericaceae","Vaccinium","consanguineum",2,4.847805951
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9540.3._","Ericaceae","Vaccinium","consanguineum",3,3.720774161
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9542.1._","Myrsinaceae","Myrsine","dependens",1,5.045445376
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9542.3._","Myrsinaceae","Myrsine","dependens",3,5.770914114
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9543.1._","Fagaceae","Quercus","costaricensis",1,10.68170839
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9544.2._","Melastomataceae","Miconia","schnellii",1,6.812726034
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9547.2._","Ericaceae","Comarostaphylis","arbutoides",1,7.829557175
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9547.3._","Ericaceae","Comarostaphylis","arbutoides",2,9.808943552
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9549.1._","Araliaceae","Schefflera","rodriguesiana",1,3.566939777
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9549.2._","Araliaceae","Schefflera","rodriguesiana",2,5.687631074
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9551.1._","Clethraceae","Clethra","gelida",1,5.108703012
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9551.2._","Clethraceae","Clethra","gelida",2,5.856165985
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9552.1._","Cunoniaceae","Weinmannia","pinnata",1,6.34593038
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9552.2._","Cunoniaceae","Weinmannia","pinnata",2,5.484007554
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9552.3._","Cunoniaceae","Weinmannia","pinnata",3,8.656471537
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9553.1._","Rhamnaceae","Rhamnus","oreodendron",1,10.20535137
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9553.2._","Rhamnaceae","Rhamnus","oreodendron",2,7.499218144
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9553.3._","Rhamnaceae","Rhamnus","oreodendron",3,8.279438248
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9554.2._","Araliaceae","Oreopanax","xalapensis",1,4.002604173
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9556.1._","Melastomataceae","Miconia","talamancensis",1,8.164524379
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9556.3._","Melastomataceae","Miconia","talamancensis",3,7.001800423
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9559.2._","Celastraceae","Maytenus","woodsonii",1,3.940584882
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9559.3._","Celastraceae","Maytenus","woodsonii",2,5.576341545
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9561.1._","Ericaceae","Macleania","rupestris",1,3.147478466
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9561.3._","Ericaceae","Macleania","rupestris",2,3.853964638
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9562.2._","Asteraceae","Diplostephium","costaricense",2,4.872284781
+"Tropical (Savegre, Costa Rica)","Cerro de la Muerte","Cerro.9562.3._","Asteraceae","Diplostephium","costaricense",3,7.052018529
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.10._","Lauraceae","Nectandra","umbrosa",1,7.326055642
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.12._","Erythroxylaceae","Erythroxylum","macrophyllum",1,15.08817742
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.23._","Fabaceae","Clitoria","javitensis",1,12.44928559
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.3._","Meliaceae","Ruagea","glabra",1,5.976709785
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.34._","Lacistemataceae","Lacistema","aggregatum",1,3.977439698
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.37._","Erythroxylaceae","Erythroxylum","macrophyllum",1,5.327904582
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.7._","Apocynaceae","Aspidosperma","desmanthum",1,14.12548532
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.1.8._","Melastomataceae","Mouriri","gleasoniana",1,6.830594741
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.10.10._","Lauraceae","Ocotea","leucoxylon",1,5.342017768
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.2.15._","Fabaceae","Swartzia","ochnacea",1,7.36372975
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.2.4._","Lauraceae","Nectandra","umbrosa",1,7.444768631
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.2.6._","Annonaceae","Oxandra","venezuelana",1,5.855836417
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.2.8._","Apocynaceae","Aspidosperma","desmanthum",1,14.91696454
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.3.3._","Melastomataceae","Mouriri","gleasoniana",1,4.391226994
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.4.2._","Sapotaceae","Pouteria","chiricana",1,9.434972538
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.4.23._","Sapotaceae","Pouteria","chiricana",1,8.313579723
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.4.3._","Fabaceae","Machaerium","kegelii",1,4.951941319
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.4.6._","Bignoniaceae","Callichlamys","latifolia",1,6.556298523
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.4.9._","Meliaceae","Ruagea","glabra",1,5.536974975
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.5.25._","Fabaceae","Clitoria","javitensis",1,13.27425497
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.5.27._","Icacinaceae","Discophora","guianensis",1,7.261654728
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.5.29._","Sapotaceae","Pouteria","chiricana",1,8.539928815
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.5.9._","Boraginaceae","Cordia","sp.2",1,9.618281287
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.6.18._","Myrtaceae","Myrciaria","floribunda",1,5.546885138
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.6.2._","Lauraceae","Nectandra","umbrosa",1,7.302431743
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.6.4._","Myrtaceae","Eugenia","acapulcensis",1,9.320251466
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.6.7._","Bignoniaceae","Arrabidaea","sp.2",1,9.055185969
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.7.10._","Lacistemataceae","Lacistema","aggregatum",1,4.515966025
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.7.18._","Apocynaceae","Aspidosperma","desmanthum",1,11.31654652
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.7.22._","Connaraceae","Rourea","glabra",1,5.544090312
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.7.6._","Chrysobalanaceae","Licania","operculipetala",1,8.553784791
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.8.2._","Salicaceae","Tetrathylacium","johansenii",1,9.493605884
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.8.6._","Erythroxylaceae","Erythroxylum","macrophyllum",1,16.60302265
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.9.20._","Fabaceae","Machaerium","salvadorense",1,8.315856673
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.9.23._","Moraceae","Trophis","involucrata",1,5.62484088
+"Tropical (Savegre, Costa Rica)","Parque Nacional Manuel Antonio","ManuelAntonio.9.25._","Rubiaceae","Faramea","occidentalis",1,7.278728463
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.1.2._","Myristicaceae","Compsoneura","excelsa",1,6.391764478
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.1.9._","Violaceae","Rinorea","hummelii",1,8.39350591
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.19._","Myristicaceae","Compsoneura","excelsa",1,4.505478386
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.24._","Myrtaceae","Eugenia","acapulcensis",1,5.064238328
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.3._","Vochysiaceae","Vochysia","megalophylla",1,8.428346748
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.31._","Clusiaceae","Garcinia","intermedia",1,5.420956757
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.6._","Fabaceae","Macrolobium","costaricense",1,10.43954854
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.2.7._","Burseraceae","Protium","sp.1",1,8.768128046
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.3.1._","Moraceae","Sorocea","hispidula",1,4.648861831
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.3.10._","Myristicaceae","Virola","guatemalensis",1,6.345974326
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.3.27._","Violaceae","Rinorea","crenata",1,7.249411005
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.3.4._","Clusiaceae","Tovomita","longifolia",1,5.095926432
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.3.6._","Burseraceae","Protium","glabrum",1,5.015075741
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.4.1._","Violaceae","Rinorea","crenata",1,7.171700919
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.4.18._","Salicaceae","Tetrathylacium","johansenii",1,7.322671497
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.4.4._","Sapotaceae","Chrysophyllum","sp.2",1,8.152226629
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.1._","Fabaceae","Inga","coruscans",1,9.2536149
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.14._","Myristicaceae","Compsoneura","excelsa",1,5.641812684
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.18._","Myrtaceae","Eugenia","acapulcensis",1,8.759706636
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.20._","Violaceae","Rinorea","crenata",1,6.205036076
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.26._","Violaceae","Rinorea","crenata",1,5.980592823
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.31._","Violaceae","Rinorea","crenata",1,6.271194609
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.33._","Violaceae","Rinorea","crenata",1,5.770871767
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.5.6._","Violaceae","Rinorea","squamata",1,8.509867854
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.6.10._","Violaceae","Rinorea","crenata",1,6.364693139
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.6.21._","Moraceae","Clarisia","biflora",1,7.312865656
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.7.13._","Violaceae","Rinorea","crenata",1,7.75403403
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.7.28._","Violaceae","Rinorea","squamata",1,7.961087202
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.7.32._","Lauraceae","Nectandra","umbrosa",1,6.050034651
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.7.8._","Salicaceae","Lunania","mexicana",1,6.556288231
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.8.15._","Fabaceae","Swartzia","ochnacea",1,8.803494269
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.8.16._","Moraceae","Pseudolmedia","glabrata",1,5.973756044
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.8.3._","Brassicaceae","Capparis","frondosa",1,5.349640412
+"Tropical (Savegre, Costa Rica)","Cerro Nara","Nara.9.2._","Rubiaceae","Chione","venosa",1,6.430693116
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.1.13.5._","Myrtaceae","Myrcia","sp.2",1,5.627309059
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.1.16._","Rubiaceae","Faramea","sp.1",1,10.07458612
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.1.22._","Euphorbiaceae","Croton","megistocarpus",1,5.739807706
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.1.25._","Sapindaceae","Matayba","apetala",1,7.450887212
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.1.26._","Sapotaceae","Chrysophyllum","sp.2",1,6.1851226
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.10.16._","Sapotaceae","Pouteria","chiricana",1,4.106060762
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.10.19._","Lauraceae","Licaria","sp.1",1,4.58914442
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.2.11.1._","Icacinaceae","Discophora","guianensis",1,7.583796721
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.2.12._","Euphorbiaceae","Richeria","dressleri",1,4.256715111
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.2.22._","Rubiaceae","Coussarea","caroliana",1,2.663785341
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.2.5._","Annonaceae","Guatteria","diospyroides",1,10.91732447
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.2.6._","Myrsinaceae","Ardisia","dunlapiana",1,4.150568295
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.3.13.1._","Apocynaceae","Lacmellea","zamorae",1,5.021041668
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.3.4._","Vochysiaceae","Vochysia","allenii",1,4.233571527
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.3.5.1._","Euphorbiaceae","Richeria","dressleri",1,5.864836227
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.3.8._","Lauraceae","Ocotea","praetermissa",1,5.952931836
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.4.14._","Fabaceae","Entada","gigas",1,5.933427872
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.4.17._","Rubiaceae","unknown","sp.1",1,6.575233025
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.4.18._","Burseraceae","Protium","sp.3",1,9.780141652
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.4.2._","Apocynaceae","Lacmellea","zamorae",1,5.516153301
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.4.4._","Rubiaceae","Coussarea","loftonii",1,5.217181447
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.5.13._","Moraceae","Pseudolmedia","mollis",1,7.008500356
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.5.17._","Burseraceae","Protium","sp.4",1,9.247748251
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.5.23._","Lauraceae","Ocotea","meziana",1,5.401672067
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.6.1._","Moraceae","Brosimum","guianense",1,5.458734153
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.6.11._","Rubiaceae","Coussarea","loftonii",1,5.493098361
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.6.15._","Moraceae","Pseudolmedia","glabrata",1,6.449250682
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.14._","Sapotaceae","Chrysophyllum","sp.3",1,5.619378227
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.15._","Rubiaceae","Coussarea","caroliana",1,6.020498746
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.17._","Moraceae","Brosimum","guianense",1,6.702215922
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.22._","Fabaceae","Inga","thibaudiana",1,7.214343743
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.5._","Rubiaceae","Posoqueria","coriacea",1,5.701771468
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.7.8._","Fabaceae","Inga","latipes",1,11.28690431
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.8.28._","Euphorbiaceae","Hieronyma","oblonga",1,3.51569409
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.8.32._","Verbenaceae","Aegiphila","sp.1",1,5.326885927
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.9.3._","Dichapetalaceae","Dichapetalum","sp.1",1,8.931653687
+"Tropical (Savegre, Costa Rica)","Ranchos Tinamu","Tinamu.9.5._","Myrsinaceae","Ardisia","dunlapiana",1,3.90842248
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7501","Rubiaceae","Palicourea","salicifolia",1,8.596596145
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7503","Magnoliaceae","Magnolia","sororum",1,6.092008852
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7506","Symplocaceae","Symplocos","retusa",1,3.87471641
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7509","Aquifoliaceae","Ilex","sp.2",1,4.563470222
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7510","Lauraceae","Nectandra","cufodontisii",1,3.788221886
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7511","Cornaceae","Cornus","disciflora",1,5.307849074
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7511","Cornaceae","Cornus","disciflora",1,4.305965916
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7513","Chloranthaceae","Hedyosmum","goudotianum",1,2.83248713
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7513","Chloranthaceae","Hedyosmum","goudotianum",2,3.693399109
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7515","Fagaceae","Quercus","seemannii",1,7.761357037
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7517","Melastomataceae","Miconia","sp.1",1,2.498520256
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7519","Aquifoliaceae","Ilex","sp.3",1,5.25175414
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7520","Ericaceae","Vaccinium","consanguineum",1,6.594028359
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7520","Ericaceae","Vaccinium","consanguineum",2,6.594028359
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7524","Cunoniaceae","Weinmannia","pinnata",1,8.57422338
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7524","Cunoniaceae","Weinmannia","pinnata",2,6.980613842
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7525","Caprifoliaceae","Viburnum","stellatotomentosum",1,7.289964262
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7526","Araliaceae","Dendropanax","querceti",1,5.746778512
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7527","Styracaceae","Styrax","argenteus",1,6.681200679
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7528","Juglandaceae","Alfaroa","costaricensis",1,12.04800627
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7528","Juglandaceae","Alfaroa","costaricensis",2,10.15832747
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7528","Juglandaceae","Alfaroa","costaricensis",3,12.04800627
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7530","Myrsinaceae","Myrsine","juergensenii",1,6.526955175
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7530","Myrsinaceae","Myrsine","juergensenii",2,4.389195133
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7530","Myrsinaceae","Myrsine","juergensenii",3,6.526955175
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7532","Myrsinaceae","Ardisia","glandulosomarginata",1,5.658756874
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7532","Myrsinaceae","Ardisia","glandulosomarginata",2,5.658756874
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7532","Myrsinaceae","Ardisia","glandulosomarginata",3,5.658756874
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7534","Brunelliaceae","Brunellia","costaricensis",1,8.895617408
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7538","Fagaceae","Quercus","rapurahuensis",1,8.284596941
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7541","Rutaceae","Zanthoxylum","melanostictum",1,10.7025972
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7542","Ericaceae","Satyria","warszewiczii",1,3.747268602
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7543","Meliaceae","Trichilia","havanensis",1,4.454955525
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7543","Meliaceae","Trichilia","havanensis",2,5.09589918
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7543","Meliaceae","Trichilia","havanensis",3,4.454955525
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7544","Asteraceae","Verbesina","oerstediana",1,3.198033989
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7547","Fagaceae","Quercus","copeyensis",1,10.24130174
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7547","Fagaceae","Quercus","copeyensis",2,10.24130174
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7547","Fagaceae","Quercus","copeyensis",3,10.24130174
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7548","Lauraceae","Ocotea","pittieri",1,5.840116621
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7549","Malpighiaceae","Bunchosia","ternata",1,4.911734731
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7549","Malpighiaceae","Bunchosia","ternata",2,4.911734731
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7550","Lauraceae","Ocotea","pittieri",1,9.308544061
+"Tropical (Savegre, Costa Rica)","SV-1","BB.7550","Lauraceae","Ocotea","pittieri",2,8.077297386
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7553","Annonaceae","Guatteria","oliviformis",1,5.932036146
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7559","Fagaceae","Quercus","rapurahuensis",1,9.381339872
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7560","Fagaceae","Quercus","seemannii",1,7.715682427
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7560","Fagaceae","Quercus","seemannii",2,8.23977146
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7561","Sabiaceae","Meliosma","vernicosa",1,5.514419179
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7569","Bignoniaceae","Amphitecna","sessilifolia",1,5.451890858
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",1,4.519867898
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",2,4.519867898
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",3,4.519867898
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",4,2.65236808
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",5,2.65236808
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7570","Araliaceae","Oreopanax","xalapensis",6,2.65236808
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7572","Myrsinaceae","gen_indet.","sp.2",1,5.292100877
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7574","Asteraceae","Verbesina","oerstediana",1,3.556284272
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7574","Asteraceae","Verbesina","oerstediana",2,3.556284272
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7574","Asteraceae","Verbesina","oerstediana",3,3.556284272
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7577","Asteraceae","Verbesina","oerstediana",4,5.889679728
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7583","Aquifoliaceae","Ilex","skutchii",1,6.008446379
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7585","Lauraceae","Ocotea","insularis",1,5.763886901
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7585","Lauraceae","Ocotea","insularis",2,5.763886901
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7585","Lauraceae","Ocotea","insularis",3,5.763886901
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7585","Lauraceae","Ocotea","insularis",4,5.763886901
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7585","Lauraceae","Ocotea","insularis",5,5.763886901
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7603","Sabiaceae","Meliosma","vernicosa",1,5.166030765
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7603","Sabiaceae","Meliosma","vernicosa",2,5.166030765
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7603","Sabiaceae","Meliosma","vernicosa",3,5.166030765
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7603","Sabiaceae","Meliosma","vernicosa",4,5.166030765
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7606","Myrsinaceae","Ardisia","sp.3",1,2.744999524
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7607","Lauraceae","Ocotea","valeriana",1,5.426378032
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7611","Lauraceae","Ocotea","praetermissa",1,7.506788773
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7617","Aquifoliaceae","Ilex","sp.2",1,5.261479815
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7620","Rubiaceae","Rondeletia","amoena",1,8.658877637
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7622","Rubiaceae","Palicourea","sp.2",1,8.810795615
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7625","Fagaceae","Quercus","copeyensis",1,9.324573086
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7632","Magnoliaceae","Magnolia","poasana",1,5.494516778
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7639","Lauraceae","Ocotea","sp.1",1,7.091205062
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7641","Myrsinaceae","gen_indet.","sp.2",1,6.296929349
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7644","Brunelliaceae","Brunellia","costaricensis",1,7.584282839
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7644","Brunelliaceae","Brunellia","costaricensis",2,6.924633481
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7646","Araliaceae","Dendropanax","querceti",1,4.796281694
+"Tropical (Savegre, Costa Rica)","SV-2","BB.7646","Araliaceae","Dendropanax","querceti",2,4.796281694
