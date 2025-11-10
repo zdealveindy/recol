@@ -53,19 +53,24 @@ coefficients, to show that 'fake' data do not obey Benford's law).
     Note that below I prepared both datasets for easy download from Gist
     on Github.
 
+\newpage
 ``` rsplus
-pop <- readr::read_delim ('https://gist.githubusercontent.com/zdealveindy/87f6ac90e989a1dc4c6b41ffd3230cce/raw/43f6261deb22cdf28e70e249c2934c22801483c8/population-of-countries-in-the-world.txt', delim = '\t')
+pop <- readr::read_delim 
+('https://raw.githubusercontent.com/zdealveindy/recol/refs/heads/main/data/world.txt',
+delim = '\t')
 follow.benford (pop$Population)
 title (main = 'Population of countries in the World')
 ```
 
-![](pop-countries-world-benford.jpg)
+![](pop-countries-world-benford.jpg){width='250'}
 
 ``` rsplus
-data.LA <- readr::read_delim ('https://gist.githubusercontent.com/zdealveindy/9efbebf002d3cccc7528be38309ffffb/raw/528a46e9d1b53821cf92354a5a548ee68bdcfee2/wet-dry-leaf-area.txt', delim = '\t')
+data.LA <- readr::read_delim
+('https://raw.githubusercontent.com/zdealveindy/recol/refs/heads/main/data/WDLA.txt',
+delim = '\t')
 follow.benford (data.LA$Wet.area.cm2)
 title (main = 'Leaf area')
 ```
 
-![](leaf-area-blonder-benford.jpg)
+![](leaf-area-blonder-benford.jpg){width='250'}
 
