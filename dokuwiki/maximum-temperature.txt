@@ -1,0 +1,21 @@
+====== What was the maximum measured temperature? ======
+
+**Dataset:** //Temperature measurements// in [[recol:data|Example datasets]] section. The dataset represents time-series of temperature measurements done in 2007 in one locality within the Czech Republic. Three temperature loggers were used: S (150 cm above ground), M (5 cm below ground) and L (20 cm below ground).
+
+**Aim:** What was the maximum temperature measured by each sensor (i.e. sensor S, M and L)?
+
+**What to do:**
+  - Import temperature data into R directly from the ''temperature.txt'' file on the website (no clipboard copy allowed).
+  - Calculate **maximum** temperature for each of variables ''S'', ''M'' and ''L''
+
+<fc #ff0000>Copy __the script__ and __retype the maximum temperatures__ into Word file.</fc>
+
+<hidden For hints click here ☛>
+  - Import data directly from website using ''read.delim'' function, with argument ''file = '' linking directly to the website link of the file ''temperature.txt'' (http://www.davidzeleny.net/wiki/lib/exe/fetch.php/recol:data:temperatures.txt)
+  - The function to calculate maximum values is clear: ''max''. However, note that some of the values in the columns are missing (NA), so if you apply ''max'' function directly, the response will be ''NA''. Solution is in the use of argument ''na.rm'' (in function ''max'') - check the help file for it.
+ </hidden>
+
+\\
+----
+
+[[recol:exercise:maximum-temperature:maximum-temperature_solution|Solution]]

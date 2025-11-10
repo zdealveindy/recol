@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>plotting.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,189 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<div id="plotting-figures-in-r" class="section level1">
+<h1>Plotting figures in R</h1>
+<p>This is introduction to plotting in R. You will learn how to use
+function <code>plot</code>, where to find meaning and setting of its
+graphical arguments, what is the difference between high-level and
+low-level graphical functions, and how to combine them together in order
+to make a fine changes in the figure setting.</p>
+<p>But first, let’s prepare the data to use. We will use the dataset
+‘’cars’‘, which is R build-in dataset - you don’t need to upload it from
+anywhere. Simply type’‘cars’’ in the concole. Let’s have a short review
+of this dataset:</p>
+<pre class="rsplus"><code>class (cars)  # data.frame - the function class checks the type of the object (vector, matrix, data.frame, list)
+names (cars)  # &quot;speed&quot; &quot;dist&quot; - names of the variables (columns) in the data frame cars
+dim (cars)    # 50 2 - it has 50 rows (samples) and 2 columns (variables)</code></pre>
+<p>The dataset is an old one (check <code>?cars</code> to see the help
+file with the description), from 1920, containing information about the
+breaking distance (<code>dist</code>, in feets) of the car going certain
+speed (<code>speed</code>, miles per hour).</p>
+<p>The data frame can be subsetted in several ways (square brackets, $
+operator), but in the following we will use the fact that individual
+variables can be accessed by their names (=names of the columns).</p>
+<pre class="rsplus"><code>cars$speed    # returns vector with values of the first column (variable speed)
+cars$dist     # returns vector with values of the second column (variable dist)</code></pre>
+<p>We want to plot the relationship of the breaking distance on the
+speed of the car (speed is independent variable and breaking distance is
+dependent - the faster the car goes, the longer is going the be the
+breaking distance) - the distance will be on the y-axis (vertical) and
+speed on the x-axis (horizontal).</p>
+<pre class="rsplus"><code>plot (x = cars$speed, y = cars$dist)</code></pre>
+<div class="float">
+<img role="img" aria-label="plotting_1.png" src="data:image/png;base64,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" query="?nolink" alt="plotting_1.png" />
+<div class="figcaption">plotting_1.png</div>
+</div>
+<p>More convenient instead of <code>plot (x, y)</code> format is to use
+formula interface inside the <code>plot</code> function, ie
+<code>plot (y ~ x, data)</code> format:</p>
+<pre class="rsplus"><code>plot (dist ~ speed, data = cars)</code></pre>
+<div class="float">
+<img role="img" aria-label="plotting_2.png" src="/recol/figures/plotting_2.png" query="?nolink" alt="plotting_2.png" />
+<div class="figcaption">plotting_2.png</div>
+</div>
+<p>The formula interface is used when there is dependent (y) and
+independent (x) variable, e.g. in the regression of y on x (which can be
+expresed by regression equation y = a + b*x, where coefficient a is the
+intercept and b is the regression slope). The <code>~</code> operator is
+called tilda (or tilde) and on the keyboard can be found in the upper
+left part (try it, you will often need it). The formula interface has
+two parts, separated by comma; first is the dependence of variables (y ~
+x), and second is defining where (in which data.frame) these variables
+are stored (unless they are in Global environment).</p>
+<p>To understand how this works, try the following:</p>
+<pre class="rsplus"><code>plot (dist ~ speed)  # Error in eval(predvars, data, env) : object &#39;speed&#39; not found</code></pre>
+<p>… is not working, because variables <code>dist</code> and
+<code>speed</code> are not in the Global environment. But we can allow R
+to find it by <code>attach</code>ing it to the Global environment using
+<code>attach</code>:</p>
+<pre class="rsplus"><code>attach (cars)
+plot (dist ~ speed)  # this works - both variables are searchable from Global environment</code></pre>
+<p>The opposite of <code>attach</code> is <code>detach</code>:</p>
+<pre class="rsplus"><code>detach (cars)
+plot (dist ~ speed)  # Error in eval(predvars, data, env) : object &#39;speed&#39; not found</code></pre>
+<p>After detaching <code>cars</code> from Global environment, I can’t
+call them directly anymore. But I can use the argument ‘’data =’’ to
+make sure that they can be found inside the <code>cars</code>
+data.frame:</p>
+<pre class="rsplus"><code>plot (dist ~ speed, data = cars)</code></pre>
+<div id="modifying-the-graphical-arguments-inside-the-plot-function" class="section level2">
+<h2>Modifying the graphical arguments inside the plot function</h2>
+<p>Now, let’s modify the basic figure in the following way: - add x- and
+y-axis labels, - change the symbol into the circle filled by different
+colour, - change the colour of the symbols into ‘tomato’ one (see
+<code>colours ()</code> for the list of all named colours in R) and the
+filling (background) of the symbol into yellow,</p>
+<ol style="list-style-type: decimal">
+<li>change the range of the x-axis to include zero,</li>
+<li>add the title of the whole plot on the top.</li>
+</ol>
+<pre class="rsplus"><code>plot (dist ~ speed, data = cars,
+      xlab = &#39;Speed [mph]&#39;, ylab = &#39;Distance [ft]&#39;,  # 1
+      pch = 21,                                      # 2
+      col = &#39;tomato&#39;, bg = &#39;yellow&#39;,                 # 3
+      xlim = c(0, 25),                               # 4
+      main = &#39;Scatterplot&#39;)                          # 5</code></pre>
+<div class="float">
+<img role="img" aria-label="plotting_3.png" src="/recol/figures/plotting_3.png" query="?nolink" alt="plotting_3.png" />
+<div class="figcaption">plotting_3.png</div>
+</div>
+<p>There is a long list of graphical parameters which can be modified
+when you are plotting your figures. You can search fo them in several
+places:</p>
+<ul>
+<li><embed role="img" src="/recol/materials/ref_card_for_graphs.pdf"></embed> - plotting
+commands by Tom Short</li>
+<li><embed role="img" src="/recol/materials/graphical-parameters.pdf"></embed> (from R
+Graphics by P. Murrell)</li>
+<li>help to the function <code>plot.default</code> offers detail
+description</li>
+<li>help to the function <code>par</code> contains even longer list of
+parameters (those which can be used also inside low-level graphical
+functions, see below).</li>
+</ul>
+</div>
+<div id="combining-high-level-and-low-level-graphical-functions" class="section level2">
+<h2>Combining high-level and low-level graphical functions</h2>
+<p>Plotting functions in R are of two types: high-level and low-level.
+High-level functions do “all the job”, ie they open the graphical device
+(if it’s not already open), prepare the axes so as all plotted data can
+display on them, and then plot what is required. Apart to ‘’plot’‘,
+other high-level functions are e.g. ’‘boxplot’‘,’‘barplot’‘,’‘hist’’ or
+<code>pie</code>. In contrast, low-level functions are only adding into
+already existing plot. If you want to add data as points in the scatter
+plot, use <code>points</code>, or you can connect them by
+<code>lines</code>, you can also add customized <code>axis</code> one by
+one, draw the <code>box</code> around the plot, and add
+<code>titles</code> (e.g. x- and y-axis labels or the main title) or
+<code>legend</code>.</p>
+<p><strong>Remember: low-level functions must be used after the first
+high-level function has been called, otherwise you will get the error
+message that the new plot was not plotted yet.</strong> The example
+above would look like this when using high-level and low-level graphical
+functions:</p>
+<pre class="rsplus"><code>plot (dist ~ speed, data = cars,                     # a) data to be used,
+      xlim = c(0, 25),                               #    define range of the x-axis,
+      axes = FALSE, ann = FALSE, type = &#39;n&#39;)         #    make sure nothing will be actually plotted 
+points (dist ~ speed, data = cars,                   # b) add data points,
+        pch = 21, col = &#39;tomato&#39;, bg = &#39;yellow&#39;)     #    with given symbols and colours
+title (xlab = &#39;Speed [mph]&#39;, ylab = &#39;Distance [ft]&#39;, # c) add x- and y-labels,
+       main = &#39;Scatterplot&#39;)                         #    add main title to the plot
+box ()                                               # d) add box around the plot
+axis (1)                                             # e) add axis 1 (bottom horizontal)
+axis (2)                                             # f) add axis 2 (left vertical)
+ </code></pre>
+<p>The figure below shows how is the sequence of the plotting (each
+panel is labeled by the same letter as the appropriate line of the code
+above; the first panel is empty, because it is the result of plotting by
+the <code>plot</code> function with arguments <code>axes</code>,
+<code>ann</code>otations and <code>type</code> set to plot
+“nothing”):</p>
+<div class="float">
+<img role="img" aria-label="plotting_4.png" src="/recol/figures/plotting_4.png" query="?nolink" alt="plotting_4.png" />
+<div class="figcaption">plotting_4.png</div>
+</div>
+<p>The benefit of combining high- and low-level graphical functions is
+finer control of what can be changed in the plot. For example, let’s
+modify the figure above by doing the following:</p>
+<ol style="list-style-type: decimal">
+<li>make a wider boundary of the symbol (the tomato colour will be more
+obvious),</li>
+<li>make the labels (x- and y-axis and the title) closer to the main
+plot, and increase the font size of the x- and y-axis labels</li>
+<li>modify the box to have only the bottom and left side (looking like a
+letter L),</li>
+<li>make the tick-mark labels on the left axis horizontal (not
+vertical), and all ticks pointing inward.</li>
+</ol>
+<pre class="rsplus"><code>plot (dist ~ speed, data = cars,
+      xlim = c(0, 25),
+      axes = FALSE, ann = FALSE, type = &#39;n&#39;)
+points (dist ~ speed, data = cars,
+        pch = 21, col = &#39;tomato&#39;, bg = &#39;yellow&#39;, 
+        lwd = 2)  # lwd = line width, here related to data points     
+title (xlab = list (&#39;Speed [mph]&#39;, cex = 1.2), ylab = list (&#39;Distance [ft]&#39;, cex = 1.2), 
+       main = &#39;Scatterplot&#39;,
+       line = 2.5)  # line = the distance of the titles from plot margin
+box (bty = &#39;l&#39;)     # bty = box type, here &#39;l&#39; (L shape)
+axis (1, at = seq (0, 25), tck = .02)  # at = positions where tickmarks are plotted,
+                                       # tck = tickmarks pointing inside
+axis (2, las = 2, tck = .02)  # las = orientation of tick-mark labels,
+                              # tck = tickmarks pointing inside</code></pre>
+<div class="float">
+<img role="img" aria-label="plotting_5a.png" src="/recol/figures/plotting_5a.png" query="?nolink" alt="plotting_5a.png" />
+<div class="figcaption">plotting_5a.png</div>
+</div>
+<p>Note that even if we asked R to plot each tickmark at the x-axis, the
+labels are plotted only for every second one - R makes sure the labels
+do not overlap, and should this happen, it will skip some. If you resize
+the figure (make it wider), you will see that you get labels at every
+tickmark.</p>
+</div>
 </div>
 
 

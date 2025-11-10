@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>fix_mistake_function_loop.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,138 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<div id="fix-my-mistakes---sequentially.shortened.sequence-function" class="section level1">
+<h1>Fix my mistakes - sequentially.shortened.sequence function</h1>
+<p><em>David Zeleny</em></p>
+<p>I wrote a bit silly R function
+<code>sequentially.shortened.sequence</code>, which creates a
+sequentially shortened sentence, and prints it on screen. However, I was
+a bit in a hurry and did not really tidy up my R-code, so it may not
+work as expected. Would you please fix it up so that it works? You may
+copy the code below to RStudio and try fixing it.</p>
+<p>Note that I ask you to fix only the mistakes/mistypes, not really to
+considerably rewrite and modify the script.</p>
+<pre><code># define the function:
+sequentially.shortened.sentence (sentence == &quot;No need to have R depresssion today, things go
+ perfectly smoothly!&#39;)
+{
+  for (i inn nchar (Sentence):1)
+    print (substr (sentence, start = 1. stop = i))
+}}
+
+# Run the function with default values:
+sequential1y.shortened,sentence {}
+
+# Run the function with another sentence:
+sequentiallly.sh0rtened.sentenCe (sentencece = &#39;Here we go! Go - where?&#39;#)</code></pre>
+<p>When the code is correct, the first run of the function (with default
+values) will return this:</p>
+<pre><code>[1] &quot;No need to have R depresssion today, things go perfectly smoothly!&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smoothly&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smoothl&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smooth&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smoot&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smoo&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly smo&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly sm&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly s&quot;
+[1] &quot;No need to have R depresssion today, things go perfectly &quot;
+[1] &quot;No need to have R depresssion today, things go perfectly&quot;
+[1] &quot;No need to have R depresssion today, things go perfectl&quot;
+[1] &quot;No need to have R depresssion today, things go perfect&quot;
+[1] &quot;No need to have R depresssion today, things go perfec&quot;
+[1] &quot;No need to have R depresssion today, things go perfe&quot;
+[1] &quot;No need to have R depresssion today, things go perf&quot;
+[1] &quot;No need to have R depresssion today, things go per&quot;
+[1] &quot;No need to have R depresssion today, things go pe&quot;
+[1] &quot;No need to have R depresssion today, things go p&quot;
+[1] &quot;No need to have R depresssion today, things go &quot;
+[1] &quot;No need to have R depresssion today, things go&quot;
+[1] &quot;No need to have R depresssion today, things g&quot;
+[1] &quot;No need to have R depresssion today, things &quot;
+[1] &quot;No need to have R depresssion today, things&quot;
+[1] &quot;No need to have R depresssion today, thing&quot;
+[1] &quot;No need to have R depresssion today, thin&quot;
+[1] &quot;No need to have R depresssion today, thi&quot;
+[1] &quot;No need to have R depresssion today, th&quot;
+[1] &quot;No need to have R depresssion today, t&quot;
+[1] &quot;No need to have R depresssion today, &quot;
+[1] &quot;No need to have R depresssion today,&quot;
+[1] &quot;No need to have R depresssion today&quot;
+[1] &quot;No need to have R depresssion toda&quot;
+[1] &quot;No need to have R depresssion tod&quot;
+[1] &quot;No need to have R depresssion to&quot;
+[1] &quot;No need to have R depresssion t&quot;
+[1] &quot;No need to have R depresssion &quot;
+[1] &quot;No need to have R depresssion&quot;
+[1] &quot;No need to have R depresssio&quot;
+[1] &quot;No need to have R depresssi&quot;
+[1] &quot;No need to have R depresss&quot;
+[1] &quot;No need to have R depress&quot;
+[1] &quot;No need to have R depres&quot;
+[1] &quot;No need to have R depre&quot;
+[1] &quot;No need to have R depr&quot;
+[1] &quot;No need to have R dep&quot;
+[1] &quot;No need to have R de&quot;
+[1] &quot;No need to have R d&quot;
+[1] &quot;No need to have R &quot;
+[1] &quot;No need to have R&quot;
+[1] &quot;No need to have &quot;
+[1] &quot;No need to have&quot;
+[1] &quot;No need to hav&quot;
+[1] &quot;No need to ha&quot;
+[1] &quot;No need to h&quot;
+[1] &quot;No need to &quot;
+[1] &quot;No need to&quot;
+[1] &quot;No need t&quot;
+[1] &quot;No need &quot;
+[1] &quot;No need&quot;
+[1] &quot;No nee&quot;
+[1] &quot;No ne&quot;
+[1] &quot;No n&quot;
+[1] &quot;No &quot;
+[1] &quot;No&quot;
+[1] &quot;N&quot;</code></pre>
+<p>The second run, with alternative text, will return:</p>
+<pre><code>[1] &quot;Here we go! Go - where?&quot;
+[1] &quot;Here we go! Go - where&quot;
+[1] &quot;Here we go! Go - wher&quot;
+[1] &quot;Here we go! Go - whe&quot;
+[1] &quot;Here we go! Go - wh&quot;
+[1] &quot;Here we go! Go - w&quot;
+[1] &quot;Here we go! Go - &quot;
+[1] &quot;Here we go! Go -&quot;
+[1] &quot;Here we go! Go &quot;
+[1] &quot;Here we go! Go&quot;
+[1] &quot;Here we go! G&quot;
+[1] &quot;Here we go! &quot;
+[1] &quot;Here we go!&quot;
+[1] &quot;Here we go&quot;
+[1] &quot;Here we g&quot;
+[1] &quot;Here we &quot;
+[1] &quot;Here we&quot;
+[1] &quot;Here w&quot;
+[1] &quot;Here &quot;
+[1] &quot;Here&quot;
+[1] &quot;Her&quot;
+[1] &quot;He&quot;
+[1] &quot;H&quot;</code></pre>
+<p>Hints:</p>
+<ol style="list-style-type: decimal">
+<li>Check the script first - is it really a definition of the function
+which should do all the job? And does it have too many or too few
+parentheses?</li>
+<li>The function <code>nchar</code> counts the number of characters in
+the character string (e.g., <code>nchar (“Hello Doly!”)</code> will
+return <code>11</code>.</li>
+<li>The function <code>substr</code> subsets the character string (e.g.,
+<code>substr (“Hello Doly!”, start = 4, stop = 8)</code> will return
+<code>lo Do</code>).</li>
+</ol>
 </div>
 
 

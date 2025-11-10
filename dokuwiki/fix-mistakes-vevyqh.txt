@@ -1,0 +1,26 @@
+====== Fix mistakes in my R-code ======
+//Prepared by David Zelený//
+
+I wrote the following R-code:
+
+<code rsplus wrong-r-code.r>
+tif f (file='orange_trees_vevyqh.tiff',  heigth  <-7, width<-1O,units ='in",res = 300,  compression='lwz')
+plot(circumference~age,data  =Orange,type  ='n',xlab='Age [days since 1968/12/30]',ylab  ='Circumference [mm])
+for(i in seq (1.  5)){points(circumference~ Age,  data=Orange
+                             [Orange$Tree==i,],   type ='b',   col==i){dev.OFF
+ 
+</code>
+
+This R-code should produce a //*.tiff// figure with relationship between circumference and age of five orange trees (dataset Orange, see ''?Orange'' for more details if you want, but not necessary). However, I made several mistakes, which makes the R-code full of error messages. Can you find and fix these mistakes? 
+
+If you succeed, the figure you will get should look like this: {{:recol:figures:orange_trees vevyqh.tiff|}} 
+
+**What to do:**
+  - Copy the R-code above to your R or RStudio editor (you can also download it as __wrong-r-code.r__ by clicking on this file-name in the header of the code above).
+  - Try to fix it. There is one or more mistypes in almost every line of the script.
+  - Copy the __correct script__ to the Word document. __Insert also figure__ created by YOUR script (should look identical to {{:recol:figures:orange_trees vevyqh.tiff|this figure}}). The size of the figure file should be less than 1 MB - if it is larger (e.g. 25 MB), you didn't fix the R code correctly.
+
+Note: the purpose is only to FIX my script, not to completely rewrite it. Fixing usually means replacing the wrong parts with the correct ones. Do not rewrite the entire code! Also, note that the figure is wider than taller - if your one is taller than wider, something is still wrong.
+\\
+----
+[[recol:exercise:fix-mistakes-vevyqh:fix-mistakes-vevyqh_solution|Solution]]

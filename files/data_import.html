@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>Importing data into R</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,233 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
+<h1 class="title toc-ignore">Importing data into R</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<pre class="r"><code>summary(cars)</code></pre>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="data:image/png;base64,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" width="672" /></p>
+</div>
+<div id="importing-data-into-r" class="section level1">
+<h1>Importing data into R</h1>
+<div id="importing-data-from-spreadsheet-.txt-.csv-excel-file" class="section level2">
+<h2>Importing data from spreadsheet (<em>.txt, </em>.csv, Excel
+file)</h2>
+<p>This is a common situation - you have data in some spreadsheet
+software (eg Excel in Windows, or Numbers in macOS), and you want to
+upload the data into R. There are several ways how to do it. The
+strongly recommended way is to save the datasheet from Excel as <em>.txt
+(preferably) or </em>.csv file (less preferably, since the format of CSV
+files depends on the language setting of your system), store the file in
+a chosen folder, and load the data into R from this file. You can also
+copy the data spreadsheet from Excel to the clipboard and load it to R
+via the clipboard, however, this is not a reproducible way, since you
+cannot code it (and next time you or others do, it may simply load a
+different chunk of data). Or, you may upload data directly from the
+Excel file stored on your computer (this may or may not work, depending
+on the version of Excel and R you are using). If data are available
+online (e.g. shared as a Dropbox/One Drive link, or stored on some
+website), you can import them directly from the online source, or (if
+data can be made public) create their online copy on GitHub eg as Gist
+(check options [[recol:store_data_gist|here]] for how to make it).</p>
+<p>When you <strong>load the file from your computer</strong> using some
+of the functions below, there are two ways how to do it: * together with
+the name of the file, include also the absolute path to the file on your
+computer, using either forward slash (’‘/’‘), or double backslash
+(’‘\’‘) to separate the folder names
+(e.g. ’‘“c:/path/to/data/folder/data-for-import.txt”’’ or
+’‘“c:\path\to\data\folder\data-for-import.txt”’‘), or * change the R
+working directory to the folder in which the file is stored by’‘setwd
+(“c:/path/to/data/folder)’’ function, and then, in the function used to
+load the data, use only the name of the file without an absolute path
+(e.g. ’‘“data-for-import.txt”’’).</p>
+<p><strong>Example data.</strong> The data we will use here as an
+example (‘’data-for-import.<em>’’ files) look like this (note that the
+first column are row names, and the first row is header = column names):
+| rownames | x | y | | P001 | 4.925152656 | 1.874884168 | | P002 |
+4.915280266 | 1.874884168 | | P003 | 4.890599291 | 1.889368528 | | P004
+| 4.836301144 | 1.913509128 | | P005 | 4.831364949 | 1.918337248 | |
+P006 | 4.796811584 | 1.952134088 | | … | … | … | ==== Using </em>.txt
+(tab delimited) format ==== Use the file {{<a href="https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt%7Cdata-for-import.txt" class="uri">https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt|data-for-import.txt</a>}},
+which is plain text, with cells separated by tabs (Tab keys, tabulators,
+coded as’‘’). Save the file into a folder, and then specify the address
+to the folder in the ‘’file’’ argument, for example (if the file is
+saved to folder ’‘“c:/path/to/data/folder”’’)): <code rsplus>
+imported_data_1 &lt;- read.delim (file =
+“c:/path/to/data/folder/data-for-import.txt”, row.names = 1) </code></p>
+<p>The object ‘’imported_data_1’’ is a data frame. Note that the
+function ‘’read.delim’’ is derived from more general function
+‘’read.table’’ by setting some of the ‘’read.table’’ arguments to
+different default values (‘’sep =’, header = TRUE’‘, meaning that the
+function expects the data have values separated by tab characters (’‘’)
+and the first row of the data will become header = names of variables).
+If the first column of the data should become row names (as in this
+case), include the argument ‘’row.names = 1’’.</p>
+<p>The argument ‘’file’’ can also be a URL link to the location of the
+file on the Internet: <code rsplus> imported_data_1 &lt;- read.delim
+(“<a href="https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt" class="uri">https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt</a>”,
+row.names = 1) </code></p>
+<p>Alternative option is to use ‘’read_delim’’ function from the package
+‘’readr’’ (part of ‘’tidyverse’‘): <code rsplus> imported_data_1a &lt;-
+readr::read_delim (“<a href="https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt" class="uri">https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.txt</a>”,
+row.names = 1) </code> Note that there is no default setting for the
+argument’‘delim’’ in ‘’read_delim’’ function, you need to always specify
+(here tabulator, ‘’delim = “’‘). Using’‘readr’’ package has it’s
+specialities: imported data are not ‘’data.frame’‘, but they
+are’‘tibbles’’ (a special data frame format used within tidiverse).
+There are number of differences, one important is that by default
+‘’tibble’’ does not have row names. The ‘’tibble’’ can be converted into
+standard data frames using ‘’as.data.frame’’ function, but if the first
+column of the ‘’tibble’’ is row name, it needs to be converted into
+‘’row.names’’ in ‘’data.frame’‘: <code rsplus> imported_data_1b &lt;-
+as.data.frame (imported_data_1a[,-1], row.names = imported_data_1a[1,])
+</code> (the function’‘as.data.frame’’ is applied on the tibble with the
+first column removed, and the first column is supplied into the argument
+‘’row.names’’).</p>
+<p>Note: <strong>different countries may have different specifications
+of what decimal separator is used</strong>; for English (and Chinese)
+setting the decimal separator is a dot (’‘.’‘), while for some other
+countries (Germany, France, French, among others) it may be a comma
+(’‘,’’). This behaviour can be changed in the Regional Setting of your
+computer. If your setting is using comma as decimal separator, then
+<em>.txt file saved from Excel will most likely also contain commas.
+However, the ‘’read.delim’’ (and also ‘’read.table’’ or
+‘’readr::read_delim’‘) function by default expects the separator to be
+dot (default setting of argument’‘dec = “.”’‘). A simple solution is to
+use’‘read.delim’’ or other functions with argument ‘’dec = “,”’‘; in
+this way, the comma will be interpreted as decimal separator. Values
+with decimal commas imported into R without changing’‘dec’’ into comma
+will be imported as factors (you can easily check that by applying
+‘’summary’’ function on the imported data frame: if the column is
+numeric, the summary will return the basic statistics (mean, median, min
+and max), while if the column is a factor, it will return a list of
+individual factor values) ==== Using </em>.csv (comma separated values)
+format ==== Use the file {{<a href="https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.csv" class="uri">https://raw.githubusercontent.com/zdealveindy/recol/main/data/data-for-import.csv</a>|}},
+in which cells are separated by commas (,) and decimal signs are
+represented by dots (.). **Note that *.csv format is a tricky one, since
+it follows different standards in different countries and on different
+platforms** - so while in Taiwan, western Europe and elsewhere the cells
+are delimited by commas (,) and decimals are separated by dots (.), in
+France, Czech and elsewhere the *.csv format has cells delimited by
+semicolons (;) and decimals by commas (,).</p>
+<p><code rsplus> imported_data_2 &lt;- read.csv (file =
+‘data-for-import.csv’, row.names = 1) </code></p>
+<p>Alternatively, you can use general function ‘’read.table’’ with
+setting appropriate arguments: ‘’head = T’’ means that the first row of
+data is taken as header (column names), ‘’sep = “,”’’ sets the delimiter
+to be semicolon, and ‘’dec = “.”’’ sets decimal separator to be a dot
+(this is default of ‘’read.table’’ function, not necessary to
+change).</p>
+<p>If your *.csv file is following “semicolon/comma” standard instead of
+“comma/dot” one, you may use the function ‘’read.csv2’’, which expects
+separators to be semicolon (;) and decimals commas (,).</p>
+<p>Alternatively, ‘’readr::read_delim’’ function with argument ‘’delim =
+“,”’’ can be used (check
+[[recol:data_import#using_txt_tab_delimited_format|Using *.txt (tab
+delimited) format]] for the specialities around ‘’read_delim’’ function
+and ‘’readr’’ package in general).</p>
+<p>==== Using clipboard ====</p>
+<p>Use the file [[<a href="https://github.com/zdealveindy/recol/blob/main/data/data-for-import.xlsx?raw=true%7Cdata-for-import.xlsx" class="uri">https://github.com/zdealveindy/recol/blob/main/data/data-for-import.xlsx?raw=true|data-for-import.xlsx</a>]],
+the sheet //pig//, and copy the table into the clipboard (take care to
+copy really just cells with data, not empty cells around - use of CTRL+A
+is thus not recommended). Then use: <code rsplus> imported-data_3 &lt;-
+read.delim (file = ‘clipboard’, row.names = 1) </code> The function
+‘’read.delim’’ expects that the input (in this case the one stored in
+clipboard) is a plain text delimited by tabulators.</p>
+<p>Using the clipboard is a quick and dirty way of importing data into
+R; it is relatively fast, but a considerable drawback is that it is not
+reproducible - you cannot code it, instead, you need to always manually
+open the file, copy the table to the clipboard and upload into R (this
+is prone to errors if you want somebody to replicate the same
+thing).</p>
+<p>==== Import directly from Excel (<em>.xls or </em>.xlsx) file ====
+Importing data directly from Excel used to be quite complicated (see
+e.g. [[<a href="http://cran.r-project.org/doc/manuals/R-data.html#Reading-Excel-spreadsheets%7Cthis" class="uri">http://cran.r-project.org/doc/manuals/R-data.html#Reading-Excel-spreadsheets|this</a>
+website]]), but the package ‘’readxl’’ made it much easier. Still, I do
+not suggest you use this option, since it may not be replicable on every
+platform, and it may change with a newer version of Excel.
+Alternatively, if you need to do this often (manipulate data manually in
+a spreadsheet and upload them into R, or even export from R back to the
+spreadsheet), consider using Google Sheets solution instead (see
+e.g. [[<a href="https://datascienceplus.com/how-to-use-googlesheets-to-connect-r-to-google-sheets/%7Chere" class="uri">https://datascienceplus.com/how-to-use-googlesheets-to-connect-r-to-google-sheets/|here</a>]]).</p>
+<p>Use of the package ‘’readxl’’ is pretty straightforward. There is a
+suite of functions for reading Excel file, like read_excel, read_xls and
+read_xlsx. Important arguments are ‘’path’’ and ‘’sheet’‘, first for the
+name of the file (optinally including the path to the folder) and the
+second the name of the sheet which should be imported. We may try it on
+the Excel file {{:recol:<a href="data:data-for-import.xlsx" class="uri">data:data-for-import.xlsx</a>|}} - save it somewhere on your
+computer, and use: <code rsplus> # install.packages (’readxl’) library
+(readxl) imported_data_4 &lt;- read_excel
+(‘c:/path/to/data/folder/data-for-import.xlsx’, sheet = ‘pig’)
+</code></p>
+<p>The object ‘’imported_data_4’’ created in R is not data.frame, but
+‘’tibble’’ (alternative to data.frame in the ‘’tidyverse’’ packages). If
+you don’t like that (or you don’t know how to use it), you can simply
+convert it into data.frame using ‘’as.data.frame’’ function. If the
+first column of the data are in fact row names, they may need to be
+assigned as such: <code rsplus> imported_data_4a &lt;- as.data.frame
+(imported_data_4[,-1], row.names = imported_data_4[,1]) </code></p>
+<p>Note that the functions from package ‘’readxl’’ cannot read Excel
+files directly from internet, unlike e.g. ‘’read.table’‘. But there is a
+workaround - first, download the Excel file into R as a temporary file,
+and the read it using’‘readxl’’ function: <code rsplus> #
+install.packages (‘readxl’) library (readxl) url &lt;- ‘<a href="https://github.com/zdealveindy/recol/blob/main/data/data-for-import.xlsx?raw=true" class="uri">https://github.com/zdealveindy/recol/blob/main/data/data-for-import.xlsx?raw=true</a>’
+destfile &lt;- tempfile () download.file (url, destfile, mode = ‘wb’)
+imported_data_5 &lt;- read_excel(destfile, sheet = ‘pig’) </code></p>
+<p>Note that in the function ‘’download.file’’ it is important to
+specify the argument ‘’mode = ’wb’’’ (on Windows, if the argument
+‘’mode’’ is not set up, the type of the file will be determined from the
+file extension; in case of “xls” and “xlsx”, it would attempt to
+download these files as plain text, but in fact, these files need to be
+downloaded as binaries!).</p>
+<p>The library ‘’readxl’’ is a part of the ‘’tidyverse’’ packages, and
+as such it does not use standard ‘’data.frame’’ format for data frames,
+but unique ‘’tibble’’ (check ‘’class (imported_data_5)’‘). One feature
+of’‘tibble’’ is that <strong>it does not have rownames, and rownames are
+therefore imported as the first column of the data frame</strong>. This
+may or may not be handy for future analysis. To convert ‘’tibble’’ into
+standard ‘’data.frame’‘, use the function’‘as.data.frame’‘. Then, still,
+you need to move first column into the rownames of the newly created
+data frame. Alternatively, there are functions
+like’‘column_to_rownames’’ in the package ‘’tibbles’’ which can help you
+with that.</p>
+<p><code rsplus> imported_data_5_df &lt;- as.data.frame
+(imported_data_5) rownames (imported_data_5_df) &lt;-
+imported_data_5_df[,1] imported_data_5_df &lt;- imported_data_5_df[,-1]
+</code> ===== Import *.RData file ===== Binary data storing the R object
+can be loaded into R using function ‘’load’’. Download data [[<a href="https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true%7Cdata-for-import.rdata" class="uri">https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true|data-for-import.rdata</a>]]
+to your computer and use:</p>
+<p><code rsplus> load (‘data-for-import.RData’) </code></p>
+<p>This should create the variable ‘’data_for_import’’ in your Global
+environment (it will appear among variables). You do not need to assign
+the result to a new variable (nothing like ‘’imported_values &lt;- load
+(’data-for-import.RData’)’’ will work).</p>
+<p>Alternatively, ‘’load’’ function can read directly data from a
+website, if the URL link is wrapped by the function ‘’url’‘:
+<code rsplus> load (url (’<a href="https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true" class="uri">https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true</a>’))
+</code></p>
+<p>===== And what are the data in the example data-for-import file?
+===== It’s actually really a pig! <code rsplus> load (url (‘<a href="https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true" class="uri">https://github.com/zdealveindy/recol/blob/main/data/data-for-import.rdata?raw=true</a>’))
+plot (data_for_import) </code>
+{{:recol:figures:pig_points.png?nolink|}}</p>
+<p>The pig! (note that the color I used to fill the polygon here is
+called [[<a href="https://icolorpalette.com/color/fcd7de/%7CPig" class="uri">https://icolorpalette.com/color/fcd7de/|Pig</a> Pink]] :)
+<code rsplus> plot (data_for_import, type = ‘o’, pch = 16, col = ‘red’,
+frame.plot = F, axes = F) polygon (data_for_import, pch = 16, col =
+‘#FCD7DE99’, border = NA) </code>
+{{:recol:figures:pig_polygon.png?nolink|}}</p>
+</div>
 </div>
 
 

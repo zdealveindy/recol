@@ -1,0 +1,31 @@
+====== Multiplication quiz: a game to practice "while" loop ======
+
+**Aim:** Use the ''while'' loop to simulate the following //multiplication quiz// game, in which the user (you or anybody using the computer) is quizzed about her/his ability to multiply two numbers by the head. The game goes like this:
+  - The computer randomly generates two numbers, say x1 and x2, each being an integer between 1 and 9. 
+  - Then, the computer asks the user: //How much is x1*x2?// (replace x1 and x2 by the randomly generated numbers). 
+  - The user should type the answer into the command line. 
+  The computer evaluates whether the answer is correct; if yes, it will reply, "Congratulations, correct answer!" and stop the game. If the response is incorrect, it will reply, //Sorry, the wrong answer, the correct answer is x1*x2. You have another try.// (replace x1*x2 with the real result). After this, the game runs from the beginning (step 1).
+
+Please wrap the whole game into a function called ''multiplication.quiz''. The function should have no arguments (or, if you wish, you may add arguments to enlarge the game's functionality, but the basic requirements must stay the same).
+
+The function ''multiplication.quiz'' should run as the followings:
+<file>
+> multiplication.quiz ()
+How much is 8*9? 56
+[1] "Sorry, wrong answer, correct is 72. You have another try."
+How much is 4*9? 69
+[1] "Sorry, wrong answer, correct is 36. You have another try."
+How much is 7*2? 13.5
+[1] "Sorry, wrong answer, correct is 14. You have another try."
+How much is 3*4? 12
+[1] "Congratulations, correct answer!"
+</file>
+
+<hidden For hints, click here ☛>
+  - you will need the function ''readline'', which can read the response as it was typed into the command line (console); example: ''year <- readline ('Which year you got born?')'' should prompt you with this question, and you answer typed after the question will be stored into the ''year'' variable (note that even if the user types in the number (e.g. 2001), the value gets stored as a character string (ie "2001") and if you want to use it for calculation, you need to convert it into a number (function ''as.numeric'').
+  - you will also most probably need ''if'' and ''else'' statements (or something similar),
+  - ''paste'' function can assemble the sentence which contains several components (e.g. ''x <- 2; paste ('This is', x, sep = ' ')'' returns "This is 2")
+</hidden>
+\\
+----
+[[recol:exercise:multiplication_quiz:solution|Solution]]

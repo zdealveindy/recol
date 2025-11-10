@@ -1,0 +1,41 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: a4paper
+---
+
+# What was the maximum measured temperature?
+
+*David Zelený*
+
+## Introduction
+
+A colleague from the Czech Republic, Karel Fajmon, measured time-series
+of temperature done in 2007 in one locality within the Czech Republic.
+Three temperature loggers were used: S (150 cm above ground), M (5 cm
+below ground) and L (20 cm below ground). 
+What is the maximum temperature for each logger?
+
+The dataset is on REcol website
+(<https://www.davidzeleny.net/wiki/doku.php/recol:data>), in **1.
+Temperature measurements.**
+
+## What to do
+1.  Import temperature data into R directly from the `temperature.txt`
+    file on the website (no clipboard copy allowed).
+2.  Calculate **maximum** temperature for each of variables `S`, `M` and
+    `L`
+3.  Retype maximum values into the R script, and upload it into NTU COOL.
+
+\newpage
+## Hints
+1.  Import data directly from website using `read.delim` function, with
+    argument ''file = '' linking directly to the website link of the
+    file `temperature.txt`
+    (<http://www.davidzeleny.net/wiki/lib/exe/fetch.php/recol:data:temperatures.txt>)
+2.  The function to calculate maximum values is clear: `max`. However,
+    note that some of the values in the columns are missing (NA), so if
+    you apply `max` function directly, the response will be `NA`.
+    Solution is in the use of argument `na.rm` (in function `max`) -
+    check the help file for it.

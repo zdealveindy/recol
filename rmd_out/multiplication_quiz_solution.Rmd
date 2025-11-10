@@ -1,0 +1,34 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: a4paper
+---
+
+# Multiplication quiz: a game to practice "while" loop - Solution
+
+``` rsplus
+# Multiplication quiz
+
+multiplication.quiz <- function ()
+{
+  response_wrong <- TRUE
+  
+  while (response_wrong)
+  {
+    first <- sample (1:9, 1)
+    second <- sample (1:9, 1)
+    question <- paste ('How much is ', first, '*', second, '? ', sep = '')
+    response <- readline (question)
+    if (as.numeric (response) == first*second)
+    {
+      print ('Congratulations, correct answer!')
+      response_wrong <- FALSE
+    } else {
+      print (paste ('Sorry, wrong answer, correct is ', first*second, '. You have another try.',
+      sep = ''))
+    }
+  }
+}
+
+```

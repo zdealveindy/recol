@@ -1,0 +1,73 @@
+\~\~Title: \[REcol\] Links \~\~
+
+# Introduction to R for Ecologists
+
+## Links to study materials
+
+*Collection of links to some useful learning materials, websites etc.*
+
+## Books
+
+- Getting started with R: An introduction for biologists (Beckerman &
+  Petchey)
+  - a book focused on an introduction to R for biologists (import data,
+    inspect data and plot data)
+  - available online from [NTU
+    library](http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=439723&site=ehost-live)
+    (only in NTU campus) or as
+    ![pdf](/recol/materials/beckerman-petchey2012_getting-started-with-r-an-introduction-for-biologists2.pdf){.align-center}
+    ![lock-icon.png](//lock-icon.png){query="?nolink"}
+  - website R4All (<http://www.r4all.org/>) with scripts, datasets etc.
+- R Graphics (Paul Murrell, 3rd edition)
+  - a book focused on drawing data in R (traditional R graphics, but
+    also grid graphics libraries such as `lattice` and `ggplot2`)
+  - second edition available online from [NTU
+    library](http://www.crcnetbase.com/doi/book/10.1201/b10966) (only on
+    NTU campus), the third (latest) edition as
+    ![pdf](/recol/materials/murrell2018_r-graphics-3rd-edition.pdf)
+    ![lock-icon.png](//lock-icon.png){query="?nolink"}
+- R for Data Science (Wickham & Grolemund)
+  - a book focused on introducing `tidyverse` package, data wrangling,
+    plotting and analysis
+  - <https://r4ds.had.co.nz/> for the latest version of the book
+
+## Short introductory materials
+
+    *[[http://www.cookbook-r.com/|Cookbook for R]] - website by Winston Chang, with handy advices how to do thinks from data management, simple analysis to plotting graphs. If you google some question "how to do something in R", you often land in this website.
+    *[[http://www.statmethods.net/index.html|Quick R - accessing the power of R]]  (Rob Kabacoff) - relatively new website, focused on the R beginners (generally usefull, although it focuses on previous users of SPSS and SAS)
+    *[[http://www.luchsinger-mathematics.ch/Bashir.pdf|Getting started in R]] (S.A. Bashir) - short English introduction
+    *[[http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf|R for beginners]] (Emmanuel Paradis) - longer English introduction
+    *[[http://www.karlin.mff.cuni.cz/~kulich/vyuka/Rdoc/Verzani-SimpleR.pdf|Simple R - using R for introductory statistics]] (John Verzani) - the most comprehensive English introduction
+    * [[https://github.com/matloff/fasteR|fasteR: Fast Lane to Learning R!]]  (Norm Matloff) - Learn R in non-tidyverse way!
+
+## More advanced materials - still introduction, but focused on statistics
+
+- ![Learning statistics with R: A tutorial for psychology students and
+  other
+  beginners](/recol/materials/navaro_learning-statistics-with-r_0.6.pdf)
+  (Danielle Navarro) (book website
+  [here](https://learningstatisticswithr.com/))
+- The new statistics with R: An introduction for biologist (Andy Hector)
+  (NTU has [online version in
+  library](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780198729051.001.0001/acprof-9780198729051))
+
+## Handouts - Short materials worth to be printed and kept handy
+
+    *{{http://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf|R Reference Card v 2.0}} (Tom Short, Matt Baggott, Emmanuel Paradis) - simple handout with all important R commands and their explanation - keep it handy!
+    *{{:recol:materials:ref_card_for_graphs.pdf|R Reference Card for graphs}} - plotting commands
+    *{{:recol:materials:graphical-parameters.pdf|List of graphical parameters}} - from R Graphics (P. Murrell)
+    * [[https://www.rstudio.com/resources/cheatsheets/|Cheat sheets for popular R packages]], e.g. [[https://github.com/rstudio/cheatsheets/raw/master/strings.pdf|stringr]] for work with strings, [[https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf|tidyr]] for reshaping data (e.g. wide-to-long format) and [[https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf|dplyr]] for manipulating (potentially huge) tables. All packages are from [[https://www.tidyverse.org/|tidyverse]].
+
+## Other materials which may come handy
+
+- [Manipulating big data in R for vegetation
+  scientists](http://viktoriawagner.weebly.com/uploads/1/4/5/2/14527152/r-big-vegetation-data---iavs-23-nov-2015.pdf)
+  (Viktoria Wagner)
+  - contains useful examples of working with strings (library `stringr`)
+    and manipulating tables (`dplyr`).
+
+<!-- -->
+
+    *[[https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf|A Guide to Reproducible Code in Ecology and Evolution]] (British Ecological Society)
+      * focused on the use of R (and Python) for documenting scientific studies (when you want to publish your data). Contains several useful tricks for better organising the workflow in R.
+    * [[https://www.burns-stat.com/pages/Tutor/R_inferno.pdf|R Inferno]] (Patric Burns) - if you start to feel as being in R hell...

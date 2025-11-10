@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>r_constructs.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,331 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<div id="r-constructs" class="section level1">
+<h1>R constructs</h1>
+<p>This section contains a list of “R constructs” which we will refer to
+in the class (e.g. how to define a function, or how to code a loop
+executing certain code repeatedly).</p>
+<div id="for-loop" class="section level2">
+<h2>“for” loop</h2>
+<div class="float">
+<img role="img" aria-label="for-loop_flowchart_2.jpg" src="/recol/figures/for-loop_flowchart_2.jpg" class="align-left" query="?nolink%300" alt="for-loop_flowchart_2.jpg" />
+<div class="figcaption">for-loop_flowchart_2.jpg</div>
+</div>
+<pre><code>for (VAR in VECTOR)
+{
+  STATEMENT_1
+  STATEMENT_2
+  ETC
+}</code></pre>
+<p>Create an element <code>VAR</code>, which takes (sequentially) values
+of elements in <code>VECTOR</code>. The length of <code>VECTOR</code>
+defines how many times the loop will be executed (= number of elements
+in <code>vector</code> = <code>length (VECTOR)</code>). The body of the
+function (statements which are executed in each cycle) are wrapped
+together into curly brackets (<code>{</code> and <code>}</code>); if
+only one STATEMENT is inside the body of the loop, the curly brackets
+can be ommited. The <code>VAR</code> can but does not need to be used in
+the body of the function. Variables defined within the body of the
+function and also the <code>VAR</code> variable will stay in the Global
+Environment (this is different from the <code>function</code>, which
+will create temporary environment, create variables there, and close it
+after the end of executing the lines of code in the function’s body
+(these variables are not visible from Global Environment).</p>
+</div>
+<div id="while-loop" class="section level2">
+<h2>“while” loop</h2>
+<div class="float">
+<img role="img" aria-label="while-loop_flowchart.jpg" src="/recol/figures/while-loop_flowchart.jpg" class="align-left" query="?nolink&amp;300" width="300" alt="while-loop_flowchart.jpg" />
+<div class="figcaption">while-loop_flowchart.jpg</div>
+</div>
+<pre><code>while (CONDITION)
+{
+  STATEMENT_1
+  STATEMENT_2
+  ETC
+}</code></pre>
+<p>This function can be also translated as “do while the CONDITION is
+true”. The CONDITION needs to be a logical statement returning either
+TRUE or FALSE; if FALSE, the loop is interrupted and code jumps out of
+the loop. In case that the CONDITION does not eventually return FALSE,
+the looping may last forever (click ESC in that case to stop it).</p>
+</div>
+<div id="repeat-loop" class="section level2">
+<h2>“repeat” loop</h2>
+<div class="float">
+<img role="img" aria-label="repeat-loop_flowchart_2.jpg" src="/recol/figures/repeat-loop_flowchart_2.jpg" class="align-left" query="?nolink&amp;300" width="300" alt="repeat-loop_flowchart_2.jpg" />
+<div class="figcaption">repeat-loop_flowchart_2.jpg</div>
+</div>
+<pre><code>repeat
+{
+  STATEMENT1
+  STATEMENT2
+  IF (CONDITION) break
+}</code></pre>
+<p>The “repeat” loop has a different logic from the previous two; it
+“repeats until the CONDITION is true”, after which <code>break</code>
+function needs to be called to <em>break</em> out of the loop. It
+repeats the expression at least once before it evaluates the CONDITIONS.
+This one is the most dangerous, because, similarly to “while” loop, it
+may keep repeating forever if the CONDITION does not turn TRUE.</p>
+</div>
+<div id="if-and-else-conditional-function" class="section level2">
+<h2>“if” and “else” conditional function</h2>
+<div class="float">
+<img role="img" aria-label="if-else-function.jpg" src="/recol/figures/if-else-function.jpg" class="align-left" query="?nolink&amp;300" width="300" alt="if-else-function.jpg" />
+<div class="figcaption">if-else-function.jpg</div>
+</div>
+<pre><code>if (CONDITION)
+{
+  STATEMENT_1
+  STATEMENT_2
+  ETC_1
+} else {
+  STATEMENT_3
+  STATEMENT_4
+  ETC_2
+  }</code></pre>
+<p>The “if else” conditional function evaluates whether the CONDITION is
+TRUE or FALSE, and executes relevant statement. The the
+<code>else</code> part does not need to be present. CONDITION needs to
+be a single logical value (it can be a complicated logical expression,
+but if more than one logical value is returned by it, only the first one
+will be used (this is different from <code>ifelse</code> function
+(below), in which CONDITION can be a vector (or a matrix) with more than
+one logical value and all are used.</p>
+<p><img role="img" aria-label="if-else-nested-function.jpg" src="/recol/figures/if-else-nested-function.jpg" class="align-left" query="?nolink&amp;300" width="300" alt="if-else-nested-function.jpg" /> The “if else” functions can be also
+nested:</p>
+<pre><code>if (CONDITION_1) {
+  STATEMENT_1
+  STATEMENT_2
+  ETC_1
+} else {
+  if (CONDITION_2) {
+    STATEMENT_3
+    STATEMENT_4
+    ETC_2
+  } else {
+      STATEMENT_5
+      STATEMENT_6
+      ETC_3
+    }
+  }</code></pre>
+</div>
+<div id="ifelse-conditional-function" class="section level2">
+<h2>“ifelse” conditional function</h2>
+<pre><code>ifelse (CONDITION, VAR_IF_TRUE, VAR_IF_FALSE)</code></pre>
+<p>… where CONDITION can be a vector (or matrix) with more than one
+logical element - than the function “loops” through the whole
+vector/matrix and returns the object of the same dimension as CONDITION
+(dimension = the same number of elements in case of vector, or the same
+number of rows/columns in the case of matrix)</p>
+</div>
+<div id="function-construct" class="section level2">
+<h2>“function” construct</h2>
+<pre><code>NEW_FUNCTION &lt;- function (ARG1, ARG2, ARG3)
+{
+  STATEMENT_1
+  STATEMENT_2
+  STATEMENT_3
+  ETC
+  return (RESULT)
+}</code></pre>
+<p>The <code>function</code> will define a new object, which has the
+ability to execute the statements inside its definition, while
+(optionally) supplying values through the arguments of the function
+(here e.g. <code>ARG1</code>). The function usually has some side
+effect, e.g. it does a calculation and exports an output (e.g. numerical
+values), or it does something else (e.g. plotting the figure).</p>
+<p>The <code>return</code> function (here at the end of the function
+definition) exports values into the global environment. When you run the
+function, the function creates a temporary environment and new
+variables, which are not accessible from the Global Environment (so as
+they do not mix with those defined in the Global Environment). If you
+want the function to export something to the global environment, you
+need to <em>return</em> it from the function. This is done either
+explicitly by using <code>return</code> function, or by typing the name
+of the variable at the end of the function as if you want to print it
+into the console (means that instead of <code>return (RESULT)</code> you
+may type simply <code>RESULT</code> and it does the same thing; the
+difference is that <code>return (RESULT)</code> can theoretically be
+somewhere inside the script, not necessarily in the end, while if you
+type only the name of the variable, the function returns the one which
+is the last one). You can return only a single object, so if more than
+one object needs to be returned, wrap them e.g. into a list and return
+the list of objects. If <code>return</code> is used in the body of the
+function but is not at the end of the script, all lines of code after
+<code>return</code> are ignored and not executed.</p>
+<p>Arguments can have <em>default</em> value, i.e. the value which will
+be used if the argument does not have assigned value when the function
+is called. For example, the function</p>
+<pre><code>log_sqrt &lt;- function (x) 
+   log (sqrt (x))</code></pre>
+<p>when called, will require the value of the argument <code>x</code> to
+be defined; but if we modify the definition into</p>
+<pre><code>log_sqrt &lt;- function (x = 64) 
+   log (sqrt (x))</code></pre>
+<p>when we call it without specifying the argument, the value 64 will be
+used as the default one.</p>
+</div>
+<div id="apply-implicit-loop" class="section level2">
+<h2>“apply” implicit loop</h2>
+<p>Function <code>apply</code> takes matrix or data frame as an argument
+<code>X</code>, and cuts in into slices (either by row or by column,
+depending on the value in argument <code>MARGIN</code>). The function
+<code>FUN</code> is then applied on each slice separately, and connected
+together into resulting vector. “Implicit” loops are doing a very
+similar thing as “explicit” loops (<code>for</code>, <code>while</code>,
+<code>repeat</code>), but instead of explicitly typing the whole loop,
+the whole command has usually very simple structure, and the looping is
+done implicitly. <img role="img" aria-label="apply-schema.jpg" src="/recol/figures/apply-schema.jpg" class="align-center" query="?nolink" alt="apply-schema.jpg" /> There are
+several other functions in <code>*apply</code> family. For example,
+<code>lapply</code> takes as an argument list, applies FUN on each
+component of the list, and returns a list of the same length as the one
+which was used as an argument. <code>sapply</code> is very similar to
+<code>lapply</code>, but it attempts to return the values in the most
+simple object (e.g. as a vector instead of the list). Other functions
+exists (<code>vapply</code>, <code>mapply</code>, <code>tapply</code>,
+<code>rapply</code> etc.).</p>
+</div>
+<div id="plot-into-a-file" class="section level2">
+<h2>Plot into a file</h2>
+<pre><code>tiff (filename = &#39;FILENAME.tiff&#39;, width = WIDTH, height = HEIGHT, units = UNITS, pointsize = POINTSIZE, ...)
+PLOT_THE_FIGURE
+dev.off ()</code></pre>
+<p>The logic is the following:</p>
+<pre><code>  - To plot into a file, you need to first open appropriate graphics device (&#39;&#39;tiff&#39;&#39; opens TIFF graphics device, but there is a number of others, e.g. &#39;&#39;bmp&#39;&#39;, &#39;&#39;jpeg&#39;&#39;, &#39;&#39;png&#39;&#39;, &#39;&#39;pdf&#39;&#39;, &#39;&#39;postscript&#39;&#39; etc.). Give the file a name with appropriate extension (e.g. &#39;&#39;*.tif&#39;&#39; in the case of TIFF format, &#39;&#39;*.jpg&#39;&#39; or &#39;&#39;*.jpeg&#39;&#39; in the case of JPG, etc) and set up plotting parameters (size of the image by WIDTH or/and HEIGHT, etc.). 
+  - After you open the graphics device, plot the figure itself (use high-level plotting functions like &#39;&#39;plot&#39;&#39;, &#39;&#39;boxplot&#39;&#39;, &#39;&#39;barplot&#39;&#39;, &#39;&#39;hist&#39;&#39; etc., and optionally add low-level plotting functions, such as &#39;&#39;points&#39;&#39;, &#39;&#39;text&#39;&#39;, &#39;&#39;lines&#39;&#39;, &#39;&#39;axis&#39;&#39;, &#39;&#39;box&#39;&#39;, etc.). 
+  - When you finish plotting, close the graphics device by &#39;&#39;dev.off ()&#39;&#39; function, to 1) save the file, 2) to return to the R graphics device. If you forgot to close the device by &#39;&#39;dev.off ()&#39;&#39;, you cannot open the saved graphical file (and it gets zero bit size). If this happen, type &#39;&#39;dev.off ()&#39;&#39; several times, untill you see the message &#39;&#39;null device&#39;&#39;.</code></pre>
+<pre class="rsplus"><code># Example of plotting into the file:
+# 1) Open required graphics device first (PNG format in this case):
+png (&#39;cars.png&#39;, width = 6, height = 6, units = &#39;cm&#39;, res = 600, pointsize = 8)  
+
+# 2) Plot everything you want to plot:
+plot (dist ~ speed, data = cars, las = 1, xlab = &#39;Speed [mph]&#39;, ylab = &#39;Distance [ft]&#39;)
+abline (lm (dist ~ speed, data = cars))
+
+# 3) Close the graphics device
+dev.off ()</code></pre>
+</div>
+<div id="plot-regression-linecurve-into-the-scatterplot" class="section level2">
+<h2>Plot regression line/curve into the scatterplot</h2>
+<pre><code>## A) Linear regression with linear regression line
+# 1) fit the model:
+LM &lt;- lm (Y ~ X, data = DATA.FRAME)
+FOR.PREDICT &lt;- c(min (DATA.FRAME$X), max (DATA.FRAME$X))
+PREDICTED.VALS &lt;- predict (LM, newdata = list (X = FOR.PREDICT))
+# 2) plot the data:
+plot (Y ~ X, data = DATA.FRAME)
+lines (PREDICTED.VALS ~ FOR.PREDICT)
+
+## B) Linear regression with non-linear (polynomial) regression line
+# 1) fit the model:
+LM2 &lt;- lm (Y ~ poly (X, 2), data = DATA.FRAME)
+FOR.PREDICT &lt;- seq (from = min (DATA.FRAME$X), to = max (DATA.FRAME$X), length = 100)
+PREDICTED.VALS &lt;- predict (LM2, newdata = list (X = FOR.PREDICT))
+# 2) plot the data:
+plot (Y ~ X, data = DATA.FRAME)
+lines (PREDICTED.VALS ~ FOR.PREDICT)
+
+## C) &quot;abline&quot; solution (only for linear regression line)
+# 1) fit the model:
+LM &lt;- lm (Y ~ X, data = DATA.FRAME)
+# 2) plot the data:
+plot (Y ~ X, data = DATA.FRAME)
+abline (LM)</code></pre>
+<p>Combination of <code>lm</code> (linear model
+<code>lm (y ~ x, data)</code>) and <code>predict</code> (predicts the
+values of x variables lying on the regression curve), and then
+high-level graphical function (<code>plot</code>, plots scatterplot) and
+low-level one (<code>lines</code>, plots the regression line). Although
+it may feel a bit too complicated, it is the most general option, which
+allows for plotting any type of fitted curve (not only linear as
+<code>abline</code>, but also non-linear).</p>
+<p>Note: the function <code>predict</code>, if without argument
+<code>newdata</code>, will return the vector of predicted values for all
+values in variable x in the model. This may not always be useful,
+especially if the values in x are not sorted from lowest to highest, and
+we want to plot the curve (will produce the scatter of lines instead).
+Also, make sure that the values going to <code>newdata</code> argument
+of <code>predict</code> function is a <code>list</code>, containing the
+variable with exactly the same name as in the regression model
+(<code>X</code> in the example above), otherwise it won’t work (it will
+behave as if the ‘’newdata’’ argument is not supplied, without any
+warning).</p>
+<p>The <code>abline</code> solution may seem as the simplest, but it is
+the least general - it plots only linear regression line (no non-linear
+shape), and it plots the curve always across the whole figure space, not
+only across the span of the data points. This may sometimes be fine,
+sometimes not, depends.</p>
+</div>
+<div id="monte-carlo-permutation-test-of-linear-regression" class="section level2">
+<h2>Monte Carlo permutation test of linear regression</h2>
+<pre><code>X &lt;- trees$Height  # independent (explanatory) variable
+Y &lt;- trees$Volume  # dependent variable
+NPERM &lt;- 999       # the number of permutations
+
+# 1) Plot observed data, fit the linear regression, and calculate r2 (observed r2)
+plot (Y ~ X)
+abline (lm (Y ~ X))
+LM &lt;- lm (Y ~ X)
+F_OBS &lt;- summary (LM)$fstatistic[1]
+
+# 2) calculate F-value of regression on the original variables after randomizing one of them (randomized F);
+# repeat NPERM-times
+F_RAND &lt;- replicate (NPERM, expr = summary (lm (Y ~ sample (X)))$fstatistic[1])
+# or, a bit less condense:
+# F_rand &lt;- replicate (NPERM, expr = {
+#   LM_rand &lt;- lm (Y ~ sample (X))
+#   SU_rand &lt;- summary (LM_rand)
+#   F &lt;- SU_rand$fstatistic[1]
+#   F
+# })
+
+
+# 3) merge the randomized F-values and observed F-values into one vector
+F_ALL &lt;- c (F_RAND, F_OBS)
+
+# 4) calculate the probability that observed F can be generated in case that the null hypothesis
+# is true (ie by regression on randomized original variables)
+P &lt;- sum (F_ALL &gt;= F_OBS)/(NPERM+1)</code></pre>
+<p>Linear regression (<code>lm</code> function in R) is the relationship
+between a dependent (Y) and explanatory (X) variable, fitted by the
+least square algorithm. The effect size (how good is the fit) of the
+regression is the r<sup>2</sup> (coefficient of determination, see the
+<a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">definition
+on Wikipedia</a>), expressing the amount of total variation in the
+dependent variable explained by given explanatory variable. This
+explained variation can be tested by parametric test (<em>F</em>-test in
+case of linear regression), or by permutation test (Monte Carlo
+permutation test, detailed here). Parametric test (<em>F</em>-test) uses
+the results of regression and calculates F-value, which together with
+given number degrees of freedom allows to lookup appropriate
+<em>P</em>-value (level of significance). The limitation of the
+parametric test is that it applies only for a situation that Y for each
+X has a normal distribution, which is often not the case. Alternatively,
+one can calculate significance using Monte Carlo permutation test. In
+this test, we create data for which the null hypothesis (“no
+relationship between X and Y”) is true, by permitting one of the
+variable, and thus breaking any relationship which may exist between
+these two variables. From such variables (one original and one permuted)
+we then calculate regression and the <em>F</em>-value (or r<sup>2</sup>
+or other test statistics). If this permutation is replicated many times
+(e.g. 999 times, i.e. the number of permutations), we get a reasonable
+estimation of the test statistic (let’s talk about F-value here, but we
+could as well use e.g. r<sup>2</sup>) in case that the null hypothesis
+is true (i.e. the variables are random, without relationship). We can
+compare this distribution with the real F-value (from regression based
+on the real data without randomization) and calculate the probability
+that the observed F-value originates from the distribution of F-values
+representing the null hypothesis. If this probability (<em>P</em>-value)
+is low enough (e.g. P &lt; 0.05), we can reasonably assume that the null
+hypothesis (of no relationship) can be rejected.</p>
+</div>
 </div>
 
 

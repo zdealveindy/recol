@@ -1,0 +1,37 @@
+# Estimate species richness at given pH
+
+**Dataset:** [Vltava river valley measurements](/recol/data/vltava)
+
+**Aim**: Estimate the species richness of forest vegetation at pH = 4.5.
+
+**What to do:**:
+
+1.  Import the `vltava.env` data into R (you can do it directly using
+    the script for [Direct import of data into
+    R](/recol/data/vltava#direct_import_of_data_into_r)).
+2.  Calculate linear regression between species richness and measured
+    soil pH (variables `SPEC.NO` and `pH` in the dataset `vltava.env`).
+3.  Predict the estimated species richness at pH = 4.5.
+
+\<fc #ff0000\>Copy the [script]{.underline} into the Word file, and
+[report the following calculated values]{.underline}:\</fc\>
+
+      * //R//<sup>2</sup> = ??
+      * //F//-value = ??
+      * //P// = ??
+      * SPEC.NO<sub>pH = 4.5</sub>((Predicted value of species richness at pH = 4.5)) = ??
+      
+
+\<hidden For hints click here ☛\>
+
+1.  `read.delim` directly from the website link (section [Direct import
+    of data into R](/recol/data/vltava#direct_import_of_data_into_r))
+2.  `lm`
+3.  `predict` applied on results of `lm`; needs to modify arguments
+    `newdata`.
+
+\</hidden\>
+
+\
+----
+[Solution](/recol/exercise/estimate-species-richness/estimate-species-richness_solution)

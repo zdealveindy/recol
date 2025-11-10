@@ -1,0 +1,45 @@
+====== Estimate species richness at given pH - solution ======
+===== R-code: =====
+
+<code rsplus>
+vltava.env <- read.delim ('http://www.davidzeleny.net/anadat-r/data-download/vltava-env.txt')
+lm.1 <- lm (SPEC.NO ~ pH, data = vltava.env)
+summary (lm.1)  # to get R2 (Multiple R-squared), F-value (F-statistic) and P-value
+# Call:
+#   lm(formula = SPEC.NO ~ pH, data = vltava.env)
+# 
+# Residuals:
+#   Min      1Q  Median      3Q     Max 
+# -20.743  -5.941  -1.648   5.624  31.232 
+# 
+# Coefficients:
+#   Estimate Std. Error t value Pr(>|t|)    
+# (Intercept)  -12.943      6.491  -1.994    0.049 *  
+#   pH             9.569      1.525   6.276 1.03e-08 ***
+#   ---
+#   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# 
+# Residual standard error: 8.752 on 95 degrees of freedom
+# Multiple R-squared:  0.2931,	Adjusted R-squared:  0.2856 
+# F-statistic: 39.39 on 1 and 95 DF,  p-value: 1.031e-08
+
+predict (lm.1, newdata = list (pH = 4.5))
+# $fit
+# 1 
+# 30.11731 
+# 
+# $se.fit
+# [1] 0.9876333
+# 
+# $df
+# [1] 95
+# 
+# $residual.scale
+# [1] 8.751931
+</code>
+===== Summary of results: =====
+
+    - //R//<sup>2</sup> = 0.2931 <wrap lo>(Multiple-R squared in 'summary function)</wrap>
+    - //F//-value = 39.39  <wrap lo>(F-statistic in summary function)</wrap>
+    - //P// = 1.031e-08  <wrap lo>(P-value in summary function)</wrap>
+    - SPEC.NO<sub>pH = 4.5</sub>((Predicted value of species richness at pH = 4.5)) = 30.12

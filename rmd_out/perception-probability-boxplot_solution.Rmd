@@ -1,0 +1,25 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: a4paper
+---
+
+# Perception of probability: draw the boxplot - Solution
+
+``` rsplus
+# Read data from the raw version of GitHub repository:
+probly <- read.csv ('https://raw.githubusercontent.com/zonination/perceptions/master/probly.csv')
+
+# Enlarge left side plot margin:
+old_par <- par (no.readonly = TRUE) # stores default par setting before changing it
+par (mar = c (5.1, 10.1, 4.1, 2.1))
+
+# Draw horizontal boxplot:
+boxplot (probly, horizontal = TRUE, las = 1, xlab = 'Assigned probability [%]',
+         main = 'Perception of Probability')
+
+# Restore original par setting
+par (old_par)
+
+```

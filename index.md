@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Introduction to R for Ecologists (Recol)
+  title: Introduction to R for Ecologists (Recol)
 ---
 
 ### R語言在生態學的應用

@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>monty_hall_problem.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,116 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<div id="monty-hall-problem" class="section level1">
+<h1>Monty Hall Problem</h1>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Imagine that you join a TV competition. You sit in a studio and your
+task is to choose one of three doors: behind one of them is a car (e.g.
+Maserati, hand made, luxury piece), and behind two others are goats (or
+something similarly attractive, e.g. Shakespeare’s drama translated into
+Serbian). You want to win Maserati, but of course you don’t know behind
+which of three doors it is hidden. So, you randomly choose the doors
+which you want to open - let’s say door number 1. The introducer of the
+show, who knows behind which door is Maserati and behind which are
+goats, will open the other doors (<em>not</em> the one you have chosen
+and <em>certainly not</em> the one hiding Maserati, so let’s say he
+opens door number 3) to show you, that there is a goat. Then he will ask
+if you don’t want to change your opinion and instead of the door number
+1, which was your original choice, you want to open door number 2. The
+question is: in this situation, is it better to stick to your original
+decision (door number 1), or it’s better to change the opinion (and open
+door number 2)?</p>
+</div>
+<div id="details" class="section level2">
+<h2>Details</h2>
+<p><a href="http://marilynvossavant.com/about-marilyn/">{{
+:recol:figures:marylin_vos_savant.gif?nolink|}}</a> While one would
+intuitively expect that there is no difference between sticking to
+original decision or changing it, in reality it’s not true -
+surprisingly, if you change opinion, you have higher change to win
+Maserati. This problem become famous thanks to the newspaper columns of
+<a href="https://en.wikipedia.org/wiki/Marilyn%20vos%20Savant">Marilyn
+vos Savant</a>, which were published weekly in the journal
+<em>Parade</em> under the heading <em>Ask Marilyn</em>. Marilyn vos
+Savant held the Guinness book record of the human with highest IQ (228),
+and in the column she answered readers’ questions about virtually
+anything. The question, which became known as <em>Monty hall
+problem</em>, occurred in a letter from 9th September 1990<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Marilyn answered,
+that it pays off to change the decision (and to open other door than you
+initially selected). After that, thousands of readers <a href="https://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/">sent
+her letters</a> wondering how could so intelligent woman believe
+something so stupidly wrong<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, and that it’s obvious that the change
+doesn’t matter and probability is the same in both cases!</p>
+<p>You can find theoretical explanation of the problem on internet,
+e.g. on <a href="https://en.wikipedia.org/wiki/Monty_Hall_problem">Wikipedia</a>,
+or in <a href="http://www.youtube.com/watch?v=mhlc7peGlGg">Youtube</a>.
+The question could be also solved using computer simulation, where you
+repeat the game (say 1000 times) and analyse, if you get higher chance
+to win Maserati if you stick or change - and this is exactly what we are
+going to do.</p>
+</div>
+<div id="what-to-do" class="section level2">
+<h2>What to do</h2>
+<ol style="list-style-type: decimal">
+<li>The goal is to create an R script, which will show what is the
+probability of wining the car in the following two scenarios:
+<ol style="list-style-type: decimal">
+<li><strong>“always stick to the original door”</strong> scenario,
+i.e. if you always stick to the original decision which door to open,
+and</li>
+<li>**“always change the door”** scenario, i.e. if you always decide to
+change to the other door offered to you by introducer. - Repeat the game
+1000 times, and calculate the probability that you will win the car in
+the first scenario (“always stick to the original door”) and in the
+second scenario (“always change the door”).</li>
+</ol></li>
+<li>Create an R script (possibly with annotations), which I can directly
+run (without a need to do anything else) and see the answer, i.e. the
+<em>probability</em> of winning the car in the first and the second
+scenario (should be around 0.33 for the first and 0.66 for the second
+scenario).</li>
+</ol>
+<p>&lt;hidden For hints click here ☛&gt; You do not really need to
+simulate the whole process of the game, i.e. the process of opening
+different doors (but you can!). What you may do is simply to generate a
+matrix with three columns (each column represents different doors) and
+1000 rows (each row = one game). Then, create a loop (function
+<code>for</code>) which will in each row randomly locate two goats and
+one car behind doors (function <code>sample</code>).<br />
+<br />
+The first scenario (“always stick”) is simple - just choose randomly one
+of the columns of the matrix (e.g. first) and count how many times there
+is a car (you may need to use <code>==</code> logical operator, e.g. ‘’a
+== ’car’ ’’ is TRUE if <code>a</code> contains the element ’’ ‘car’
+<code>).  For the second scenario, in which I always change the doors, I can follow this reasoning: if behind the door of my first choice was a car, I always lost (since I changed to another door), while if behind the door of my first choice was not a car, I always win (the car must be behind one of the other doors, and the host opens always the one which has a goat). So, for the second scenario, I can simply choose one column (one door, my first choice) and calculate how many times there is NOT a car (</code>a
+!= ‘car’’’) - this is the number of games I can win the car.
+&lt;/hidden&gt;</p>
+<p><a href="http://www.grand-illusions.com/articles/monty_hall/">{{
+recol:figures:monty-hall-problem.jpg |}}</a></p>
+<p><a href="/recol/exercise/monty_hall_problem/solution">Solution</a>
+&lt;wrap lo&gt;(accessible later)&lt;/wrap&gt;</p>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>The original question and the answer with subsequent
+discussion can be found on the <a href="http://marilynvossavant.com/game-show-problem/">Marilyn&#39;s
+website</a>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Example of one of them reads as following (cited from <a href="http://en.wikipedia.org/wiki/Monty_Hall_problem#Vos_Savant_and_the_media_furor">Wikipedia</a>):
+“You blew it, and you blew it big! Since you seem to have difficulty
+grasping the basic principle at work here, I’ll explain. After the host
+reveals a goat, you now have a one-in-two chance of being correct.
+Whether you change your selection or not, the odds are the same. There
+is enough mathematical illiteracy in this country, and we don’t need the
+world’s highest IQ propagating more. Shame!” - Scott Smith,
+Ph.D. University of Florida<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
 
 

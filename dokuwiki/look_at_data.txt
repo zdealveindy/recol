@@ -1,0 +1,53 @@
+====== Looking at the ecological dataset ======
+
+Before you start to do some analysis or visualization of your dataset, you usually need to explore it, and also you need to be able to access individual dataset parts. Here, we will first upload a rather complex ecological dataset into R, and then learn how to search within this dataset certain values and report them.
+
+===== What to do =====
+**Upload the dataset from the Internet**
+
+The dataset is called ''vltava'' and is represented by a large //list// of components. To upload it into the R workspace, use the following code (you need to be connected to the internet, since the file is hosted online):
+<code rsplus>
+load (url ('https://github.com/zdealveindy/anadat-r/raw/master/data/vltava.RData'))
+</code>
+It may not be necessary to go into details now in what the script means, just briefly: ''load'' function loads an R object into R workspace; ''url'' function is used to wrap URL (website) link in case you want to download data directly from the internet (but this is not necessary for some other import data functions, such as ''read.table''). Note that the ''vltava.RData'' is an R object, not an R code (see [[recol:data_import#import_rdata_file|Importing data into R, section "Import *.RData file"]] for details).
+
+As a result, the object ''vltava'' will appear in your //R Global environment// (the workspace you are currently working in R), and you can use it for further work. The object is a list with five components (use ''names (vltava)'' to list their names). For this assignment, we will need to inspect only components ''spe'', ''eiv'' and ''env'' (each of them is a ''data.frame''):
+    * ''spe'' contains percentage covers of plant species (columns) in sampled sites (rows); so for example, species ''AcerPla32'' (second column, //Acer platanoides//, maple) is absent in the first five sites (value zero in the first five rows) and has percentage cover 49 in site 6);
+    * ''eiv'' contains so-called //Ellenberg indicator values// for individual species (indicator values in the columns, species in the rows); for example for ''light'' (second column, reflecting species ecological optima along light gradient), the species ''AcerPla32'' has the value 4 (on a scale from 1 to 9, i.e. it is not shade tolerant neither light demanding);
+    * ''env'' contains environmental descriptors of individual sites (env. descriptors in columns, sites in rows); for example the slope (''SLOPE'', second column) of site 3 (third row) is 30 degrees.
+
+**Within the dataset, search and extract the following information**
+  - What is the highest value of pH measured in the dataset? (''vltava'' > ''env'' > ''pH'')
+  - What is the sum of species covers in the plot 33? (''vltava'' > ''spe'' > row 33)
+  - What is the mean soil depth? (''vltava'' > ''env'' > ''SOILDPT'')
+  - How many missing values for species are there in Ellenberg indicator values for soil reaction? (''vltava'' > ''eiv'' > ''react'')
+  - How many species are in the plot 64? (''vltava'' > ''spe'' > sum the values in row 64 which are higher than 0)
+
+The exercise should have a form of R code, saved as *.r file and uploaded into the CEIBA. Make sure that the first line of the code is the header line with your name, student ID and homework number:
+<code># REcol Homework x, Author: your_name, Student ID: xxxxxxxx</code>
+
+The code should be reproducible (see [[recol:reproducible_script|here]] what it means). The second line (after the header) should load the data (copy the code above for it). From the third line of the code, you answer questions 1-5, each answer should be only one line of code. The answers should be written as a comment after the hashtag (#) at the same line (see below for an example).
+
+Hypothetical example R code, at which the first question would be to find the minimum value of elevation (''vltava'' > ''env'' > ''ELEVATION''):
+<code>
+# REcol Homework 1, Author: David Zeleny, Student ID: p12345678
+load (url (''https://github.com/zdealveindy/anadat-r/raw/master/data/vltava.RData''))
+min (vltava$env$ELEVATION) # 405
+... (here come answers to other questions) ...
+</code>
+
+Upload the assignment to NTU COOL before the deadline to get 100% of the score!
+
+<hidden For hints, click here ☛ (don't worry about clicking, it does not bite, and nobody will see that!)>
+  - you will need function ''max''
+  - ''sum'', subsetting by square brackets ''[,]''
+  - ''mean''
+  - ''is.na'' applied on a vector will return the vector of logical values, in which ''TRUE'' indicates missing values; ''sum'' to get the sum of all ''TRUE'''s
+  - ''> 0'' logical function will turn the vector of species abundances into logical values (''TRUE'' for values larger than 0). If you ''sum'' logical values, ''TRUE'' counts as 1, while ''FALSE'' as 0).
+</hidden>
+
+\\
+\\
+[[recol:exercise:look_at_data:solution|Solution]] <wrap lo>(accessible after the deadline for handing the assignment)</wrap>
+
+

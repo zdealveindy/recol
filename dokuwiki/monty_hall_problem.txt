@@ -1,0 +1,36 @@
+====== Monty Hall Problem ======
+
+===== Introduction =====
+Imagine that you join a TV competition. You sit in a studio and your task is to choose one of three doors: behind one of them is a car (e.g. Maserati, hand made, luxury piece), and behind two others are goats (or something similarly attractive, e.g. Shakespeare's drama translated into Serbian). You want to win Maserati, but of course you don't know behind which of three doors it is hidden. So, you randomly choose the doors which you want to open - let's say door number 1. The introducer of the show, who knows behind which door is Maserati and behind which are goats, will open the other doors (//not// the one you have chosen and //certainly not// the one hiding Maserati, so let's say he opens door number 3) to show you, that there is a goat. Then he will ask if you don't want to change your opinion and instead of the door number 1, which was your original choice, you want to open door number 2.
+The question is: in this situation, is it better to stick to your original decision (door number 1), or it's better to change the opinion (and open door number 2)?
+
+
+===== Details =====
+[[http://marilynvossavant.com/about-marilyn/|{{ :recol:figures:marylin_vos_savant.gif?nolink|}}]]
+While one would intuitively expect that there is no difference between sticking to original decision or changing it, in reality it's not true - surprisingly, if you change opinion, you have higher change to win Maserati. This problem become famous thanks to the newspaper columns of [[wp>Marilyn vos Savant]], which were published weekly in the journal //Parade// under the heading //Ask Marilyn//. Marilyn vos Savant held the Guinness book record of the human with highest IQ (228), and in the column she answered readers' questions about virtually anything. The question, which became known as //Monty hall problem//, occurred in a letter from 9th September 1990((The original question and the answer with subsequent discussion can be found on the [[http://marilynvossavant.com/game-show-problem/|Marilyn's website]].)). Marilyn answered, that it pays off to change the decision (and to open other door than you initially selected). After that, thousands of readers [[https://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/|sent her letters]] wondering how could so intelligent woman believe something so stupidly wrong((Example of one of them reads as following (cited from [[http://en.wikipedia.org/wiki/Monty_Hall_problem#Vos_Savant_and_the_media_furor|Wikipedia]]): "You blew it, and you blew it big! Since you seem to have difficulty grasping the basic principle at work here, I'll explain. After the host reveals a goat, you now have a one-in-two chance of being correct. Whether you change your selection or not, the odds are the same. There is enough mathematical illiteracy in this country, and we don't need the world's highest IQ propagating more. Shame!" - Scott Smith, Ph.D. University of Florida)), and that it's obvious that the change doesn't matter and probability is the same in both cases!
+
+You can find theoretical explanation of the problem on internet, e.g. on [[wp>Monty_Hall_problem|Wikipedia]], or in [[http://www.youtube.com/watch?v=mhlc7peGlGg|Youtube]]. The question could be also solved using computer simulation, where you repeat the game (say 1000 times) and analyse, if you get higher chance to win Maserati if you stick or change - and this is exactly what we are going to do.
+
+===== What to do =====
+  - The goal is to create an R script, which will show what is the probability of wining the car in the following two scenarios:
+    - **"always stick to the original door "** scenario, i.e. if you always stick to the original decision which door to open, and 
+    - **"always change the door”** scenario, i.e. if you always decide to change to the other door offered to you by introducer.
+  - Repeat the game 1000 times, and calculate the probability that you will win the car in the first scenario ("always stick to the original door") and in the second scenario ("always change the door").
+  - Create an R script (possibly with annotations), which I can directly run (without a need to do anything else) and see the answer, i.e. the //probability// of winning the car in the first and the second scenario (should be around 0.33 for the first and 0.66 for the second scenario).
+
+<hidden For hints click here ☛>
+You do not really need to simulate the whole process of the game, i.e. the process of opening different doors (but you can!). What you may do is simply to generate a matrix with three columns (each column represents different doors) and 1000 rows (each row = one game). Then, create a loop (function ''for'') which will in each row randomly locate two goats and one car behind doors (function ''sample''). 
+\\
+\\
+The first scenario (“always stick”) is simple - just choose randomly one of the columns of the matrix (e.g. first) and count how many times there is a car (you may need to use ''=='' logical operator, e.g. ''a == 'car' '' is TRUE if ''a'' contains the element '' 'car' ''). 
+\\
+\\
+For the second scenario, in which I always change the doors, I can follow this reasoning: if behind the door of my first choice was a car, I always lost (since I changed to another door), while if behind the door of my first choice was not a car, I always win (the car must be behind one of the other doors, and the host opens always the one which has a goat). So, for the second scenario, I can simply choose one column (one door, my first choice) and calculate how many times there is NOT a car (''a != 'car''') - this is the number of games I can win the car.
+</hidden>
+
+
+[[http://www.grand-illusions.com/articles/monty_hall/|{{ recol:figures:monty-hall-problem.jpg |}}]]
+
+
+
+[[recol:exercise:monty_hall_problem:solution|Solution]] <wrap lo>(accessible later)</wrap>

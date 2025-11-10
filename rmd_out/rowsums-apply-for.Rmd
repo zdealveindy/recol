@@ -1,0 +1,70 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: a4paper
+---
+
+# `rowSums` × `apply` × `for`
+
+*David Zelený*
+
+## Introduction
+This exercise is focused on comparison of three approaches (which are
+looping through the dataset) to count the number of species in each sample
+(row) of the dataset `dune` from library `vegan`.
+
+## What to do
+
+1.  Initiate library `vegan` (you need to install it first if you
+    haven't done it before). 
+2.  Initiate dataset ''dune'', containing
+    data about species composition of vegetation plots sampled in dune
+    vegetation (rows = samples, columns = species). 
+3.  I used function ''rowSums'' to count numbers of species in each plot and
+    saved it into the object `result.rowSums`:
+    ``` rsplus
+    result.rowSums <- rowSums (dune > 0)
+    result.rowSums
+    # 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+    # 5 10 10 13 14 11 13 12 13 12  9  9 10  7  8  8  7  9  9  8 
+    ```
+4.  Please, use two other alternative approaches to count numbers of species in
+    each row of the matrix:
+    a)  using function `apply` and save the results into object `result.apply`,
+    b)  using looping function `for`, and save the results into an object `result.for`. 
+5.  Both `result.apply` and `result.for` should contain the same result as `result.rowSums`, and when printed on the screen, all three must give exactly the same result:
+    ```rsplus
+    result.rowSums
+    # 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+    # 5 10 10 13 14 11 13 12 13 12  9  9 10  7  8  8  7  9  9  8 
+
+    result.apply
+    # 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+    # 5 10 10 13 14 11 13 12 13 12  9  9 10  7  8  8  7  9  9  8 
+
+    result.for
+    # 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+    # 5 10 10 13 14 11 13 12 13 12  9  9 10  7  8  8  7  9  9  8 
+    ```
+
+## Hints
+
+1.  If you have not installed `vegan` before, you need to first call
+    `install.packages`. To just initiate the already installed library, you
+    will need the command `library`. 
+2.  Use function `data` to initiate the dataset `dune` available in
+    `vegan`.
+3.  ...
+4.  These two approaches quite widely differ in the length of the
+    script:
+    a)  this is simple, just use `apply` and specify correct `MARGIN`
+        and `FUN` arguments;
+    b)  in case of `for` loop, you need to first create an empty
+        variable `result.for`, which is a vector of length equal to the
+        number of rows in `dune` dataset, and with names of individual
+        items identical with `rownames (dune)`. Then create a `for` loop
+        which will fill the vector element-by-element by the result of
+        the calculation. Functions you may need: `vector`, `names`,
+        `for`.
+5.  ...

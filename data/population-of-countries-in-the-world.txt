@@ -1,0 +1,234 @@
+Rank	Country	Population
+1	 China[a] 	1409517397
+2	 India 	1339180127
+3	 United States 	324459463
+4	 Indonesia 	263991379
+5	 Brazil 	209288278
+6	 Pakistan 	197015955
+7	 Nigeria 	190886311
+8	 Bangladesh 	164669751
+9	 Russia 	143989754
+10	 Mexico 	129163276
+11	 Japan 	127484450
+12	 Ethiopia 	104957438
+13	 Philippines 	104918090
+14	 Egypt 	97553151
+15	 Vietnam 	95540800
+16	 Germany 	82114224
+17	 Democratic Republic of the Congo 	81339988
+18	 Iran 	81162788
+19	 Turkey 	80745020
+20	 Thailand 	69037513
+21	 United Kingdom 	66181585
+22	 France 	64979548
+23	 Italy 	59359900
+24	 Tanzania[b] 	57310019
+25	 South Africa 	56717156
+26	 Myanmar 	53370609
+27	 South Korea 	50982212
+28	 Kenya 	49699862
+29	 Colombia 	49065615
+30	 Spain[c] 	46354321
+31	 Argentina 	44271041
+32	 Ukraine[d] 	44222947
+33	 Uganda 	42862958
+34	 Algeria 	41318142
+35	 Sudan 	40533330
+36	 Iraq 	38274618
+37	 Poland 	38170712
+38	 Canada 	36624199
+39	 Morocco 	35739580
+40	 Afghanistan 	35530081
+41	 Saudi Arabia 	32938213
+42	 Peru 	32165485
+43	 Venezuela 	31977065
+44	 Uzbekistan 	31910641
+45	 Malaysia[e] 	31624264
+46	 Angola 	29784193
+47	 Mozambique 	29668834
+48	   Nepal 	29304998
+49	 Ghana 	28833629
+50	 Yemen 	28250420
+51	 Madagascar 	25570895
+52	 North Korea 	25490965
+53	 Australia[f] 	24450561
+54	 Ivory Coast 	24294750
+55	 Cameroon 	24053727
+56	 Taiwan[g] 	23626456
+57	 Niger 	21477348
+58	 Sri Lanka 	20876917
+59	 Romania 	19679306
+60	 Burkina Faso 	19193382
+61	 Malawi 	18622104
+62	 Mali 	18541980
+63	 Syria 	18269868
+64	 Kazakhstan 	18204499
+65	 Chile 	18054726
+66	 Zambia 	17094130
+67	 Netherlands 	17035938
+68	 Guatemala 	16913503
+69	 Ecuador 	16624858
+70	 Zimbabwe 	16529904
+71	 Cambodia 	16005373
+72	 Senegal 	15850567
+73	 Chad 	14899994
+74	 Somalia 	14742523
+75	 Guinea 	12717176
+76	 South Sudan 	12575714
+77	 Rwanda 	12208407
+78	 Tunisia 	11532127
+79	 Cuba 	11484636
+80	 Belgium 	11429336
+81	 Benin 	11175692
+82	 Greece 	11159773
+83	 Bolivia 	11051600
+84	 Haiti 	10981229
+85	 Burundi 	10864245
+86	 Dominican Republic 	10766998
+87	 Czech Republic 	10618303
+88	 Portugal 	10329506
+89	 Sweden 	9910701
+90	 Azerbaijan[h] 	9827589
+91	 Hungary 	9721559
+92	 Jordan 	9702353
+93	 Belarus 	9468338
+94	 United Arab Emirates 	9400145
+95	 Honduras 	9265067
+96	 Tajikistan 	8921343
+97	 Serbia[i] 	8790574
+98	 Austria 	8735453
+99	  Switzerland 	8476005
+100	 Israel 	8321570
+101	 Papua New Guinea 	8251162
+102	 Togo 	7797694
+103	 Sierra Leone 	7557212
+104	 Hong Kong 	7364883
+105	 Bulgaria 	7084571
+106	 Laos 	6858160
+107	 Paraguay 	6811297
+108	 El Salvador 	6377853
+109	 Libya 	6374616
+110	 Nicaragua 	6217581
+111	 Lebanon 	6082357
+112	 Kyrgyzstan 	6045117
+113	 Turkmenistan 	5758075
+114	 Denmark 	5733551
+115	 Singapore 	5708844
+116	 Finland[j] 	5523231
+117	 Slovakia 	5447662
+118	 Norway[k] 	5305383
+119	 Congo 	5260750
+120	 Eritrea 	5068831
+121	 Palestine[l] 	4920724
+122	 Costa Rica 	4905769
+123	 Ireland 	4761657
+124	 Liberia 	4731906
+125	 New Zealand 	4705818
+126	 Central African Republic 	4659080
+127	 Oman 	4636262
+128	 Mauritania 	4420184
+129	 Croatia 	4189353
+130	 Kuwait 	4136528
+131	 Panama 	4098587
+132	 Moldova[m] 	4051212
+133	 Georgia[n] 	3912061
+134	 Puerto Rico 	3663131
+135	 Bosnia and Herzegovina 	3507017
+136	 Uruguay 	3456750
+137	 Mongolia 	3075647
+138	 Armenia 	2930450
+139	 Albania 	2930187
+140	 Jamaica 	2890299
+141	 Lithuania 	2890297
+142	 Qatar 	2639211
+143	 Namibia 	2533794
+144	 Botswana 	2291661
+145	 Lesotho 	2233339
+146	 The Gambia 	2100568
+147	 Republic of Macedonia 	2083160
+148	 Slovenia 	2079976
+149	 Gabon 	2025137
+150	 Latvia 	1949670
+151	 Guinea-Bissau 	1861283
+152	 Bahrain 	1492584
+153	 Trinidad and Tobago 	1369125
+154	 Swaziland 	1367254
+155	 Estonia 	1309632
+156	 East Timor 	1296311
+157	 Equatorial Guinea 	1267689
+158	 Mauritius[o] 	1265138
+159	 Cyprus[p] 	1179551
+160	 Djibouti 	956985
+161	 Fiji 	905502
+162	 Réunion 	876562
+163	 Comoros 	813912
+164	 Bhutan 	807610
+165	 Guyana 	777859
+166	 Montenegro 	628960
+167	 Macau 	622567
+168	 Solomon Islands 	611343
+169	 Luxembourg 	583455
+170	 Suriname 	563402
+171	 Western Sahara 	552628
+172	 Cape Verde 	546388
+173	 Guadeloupe[q] 	449568
+174	 Maldives 	436330
+175	 Malta 	430835
+176	 Brunei 	428697
+177	 Bahamas 	395361
+178	 Martinique 	384896
+179	 Belize 	374681
+180	 Iceland 	335025
+181	 Barbados 	285719
+182	 French Polynesia 	283007
+183	 French Guiana 	282731
+184	 New Caledonia 	276255
+185	 Vanuatu 	276244
+186	 Mayotte 	253045
+187	 Sao Tome and Principe 	204327
+188	 Samoa 	196440
+189	 Saint Lucia 	178844
+190	 Guernsey and  Jersey 	165314
+191	 Guam 	164229
+192	 Curaçao 	160539
+193	 Kiribati 	116398
+194	 Saint Vincent and the Grenadines 	109897
+195	 Tonga 	108020
+196	 Grenada 	107825
+197	 Federated States of Micronesia 	105544
+198	 Aruba 	105264
+199	 United States Virgin Islands 	104901
+200	 Antigua and Barbuda 	102012
+201	 Seychelles 	94737
+202	 Isle of Man 	84287
+203	 Andorra 	76965
+204	 Dominica 	73925
+205	 Cayman Islands 	61559
+206	 Bermuda 	61349
+207	 Greenland 	56480
+208	 American Samoa 	55641
+209	 Saint Kitts and Nevis 	55345
+210	 Northern Mariana Islands 	55144
+211	 Marshall Islands 	53127
+212	 Faroe Islands 	49290
+213	 Sint Maarten 	40120
+214	 Monaco 	38695
+215	 Liechtenstein 	37922
+216	 Turks and Caicos Islands 	35446
+217	 Gibraltar 	34571
+218	 San Marino 	33400
+219	 British Virgin Islands 	31196
+220	 Caribbean Netherlands[r] 	25398
+221	 Palau 	21729
+222	 Cook Islands 	17380
+223	 Anguilla 	14909
+224	 Wallis and Futuna 	11773
+225	 Nauru 	11359
+226	 Tuvalu 	11192
+227	 Saint Pierre and Miquelon 	6320
+228	 Montserrat 	5177
+229	 Saint Helena, Ascension and Tristan da Cunha 	4049
+230	 Falkland Islands 	2910
+231	 Niue 	1618
+232	 Tokelau 	1300
+233	  Vatican City[s] 	792

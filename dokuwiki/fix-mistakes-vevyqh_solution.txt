@@ -1,0 +1,45 @@
+====== Fix the mistakes in my R-code - Solution ======
+
+The original wrong R-code looks like this:
+<code rsplus wrong-r-code.r>
+tif f (file='orange_trees_vevyqh.tiff',  heigth  <-7, width<-1O,units ='in",res = 300,  compression='lwz')
+plot(circumference~age,data  =Orange,type  ='n',xlab='Age [days since 1968/12/30]',ylab  ='Circumference [mm])
+for(i in seq (1.  5)){points(circumference~ Age,  data=Orange
+                             [Orange$Tree==i,],   type ='b',   col==i){dev.OFF
+</code>
+
+
+These are the fixes (<fc #ff0000><del>red strike throuh</del></fc> means that this characters should not be there, <hi #fff200>yellow text</hi> is the corrected version):
+<WRAP box 100%>
+<ff Consolas>
+tiff (file = 'orange_trees_vevyqh.tiff', heig<fc #ff0000><del>th</del></fc><hi #fff200>ht</hi> <fc #ff0000><del><-</del></fc><hi #fff200>=</hi> 7, width <fc #ff0000><del><-</del></fc><hi #fff200>=</hi> 1<fc #ff0000><del>O</del></fc><hi #fff200>0</hi>, \\
+               units = 'in<fc #ff0000><del>"</del></fc><hi #fff200>'</hi>, res = 300, compression = '<fc #ff0000><del>lwz</del></fc><hi #fff200>lzw</hi>') \\
+\\
+plot (circumference ~ age, data = Orange, type = 'n'<hi #fff200>,</hi> \\
+ xlab = 'Age [days since 1968/12/30]', ylab = 'Circumference [mm]<hi #fff200>'</hi>)\\
+\\
+for (i in seq (1<fc #ff0000><del>.</del></fc><hi #fff200>,</hi> 5))\\
+ {points (circumference ~ <fc #ff0000><del>A</del></fc><hi #fff200>a</hi>ge, data = Orange[Orange$Tree == i,], type = 'b', col =<fc #ff0000><del>=</del></fc> i)<fc #ff0000><del>{</del></fc><hi #fff200>}</hi> \\
+\\
+dev.<fc #ff0000><del>OFF</del></fc><hi #fff200>off</hi> <hi #fff200>()</hi>
+</ff>
+</WRAP>
+
+The following is the correct script (if copied to R, should not produce any error and should generate the figure into ''orange_trees.tiff'' file in working directory):
+
+<code rsplus corrected-r-code.r>
+tiff (file = 'orange_trees_vevyqh.tiff', height = 7, width = 10, 
+     units = 'in', res = 300, compression = 'lzw')
+
+plot (circumference ~ age, data = Orange, type = 'n',
+     xlab = 'Age [days since 1968/12/30]', ylab = 'Circumference [mm]')
+
+for (i in seq (1, 5))
+     {points (circumference ~ age, data = Orange[Orange$Tree == i,], type = 'b', col = i)}
+
+dev.off ()
+</code>
+
+And resulting figure:
+{{ :recol:figures:orange_trees_vevyqh.png?nolink |}}
+

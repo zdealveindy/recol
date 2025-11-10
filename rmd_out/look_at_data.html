@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction to R for Ecologists (Recol)</title>
+<title>look_at_data.knit</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,28 +348,100 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Introduction to R for Ecologists
-(Recol)</h1>
 
 </div>
 
 
-<div id="r語言在生態學的應用" class="section level3">
-<h3>R語言在生態學的應用</h3>
-<p>EEB5082 (B44U1940), semester 114-1, 3 credits, in English</p>
-<p><strong>Instructors:</strong> David Zelený (澤大衛) &amp; Po-Ju Ke
-(柯柏如)</p>
-<p><strong>Teaching assistants:</strong> XXXX</p>
-<p><strong>When &amp; where:</strong> Tuesday 2,3,4 (9:10-12:10), Room
-綜502 in Zonghe Lecture Building</p>
-<p><strong>Office hours:</strong> by appointment (if you need to consult
-things related to the class, just drop us an email, and we will fix the
-time).</p>
-<p><strong>Link to NTU COOL:</strong> <a href="https://cool.ntu.edu.tw/courses/51775" class="uri">https://cool.ntu.edu.tw/courses/51775</a></p>
-<p>This website contains general materials for the Recol class we will
-use for teaching.</p>
-<p><img src="/images/R_logo.svg.png" alt="Optional caption text" />
-<img src="/images/R_logo.svg.png" alt="Richness histogram" width="400"></p>
+<div id="looking-at-the-ecological-dataset" class="section level1">
+<h1>Looking at the ecological dataset</h1>
+<p>Before you start to do some analysis or visualization of your
+dataset, you usually need to explore it, and also you need to be able to
+access individual dataset parts. Here, we will first upload a rather
+complex ecological dataset into R, and then learn how to search within
+this dataset certain values and report them.</p>
+<div id="what-to-do" class="section level2">
+<h2>What to do</h2>
+<p><strong>Upload the dataset from the Internet</strong></p>
+<p>The dataset is called <code>vltava</code> and is represented by a
+large <em>list</em> of components. To upload it into the R workspace,
+use the following code (you need to be connected to the internet, since
+the file is hosted online):</p>
+<pre class="rsplus"><code>load (url (&#39;https://github.com/zdealveindy/anadat-r/raw/master/data/vltava.RData&#39;))</code></pre>
+<p>It may not be necessary to go into details now in what the script
+means, just briefly: <code>load</code> function loads an R object into R
+workspace; <code>url</code> function is used to wrap URL (website) link
+in case you want to download data directly from the internet (but this
+is not necessary for some other import data functions, such as
+<code>read.table</code>). Note that the <code>vltava.RData</code> is an
+R object, not an R code (see <a href="/recol/data_import#import_rdata_file">Importing data into R,
+section &quot;Import *.RData file&quot;</a> for details).</p>
+<p>As a result, the object <code>vltava</code> will appear in your <em>R
+Global environment</em> (the workspace you are currently working in R),
+and you can use it for further work. The object is a list with five
+components (use <code>names (vltava)</code> to list their names). For
+this assignment, we will need to inspect only components
+<code>spe</code>, <code>eiv</code> and <code>env</code> (each of them is
+a <code>data.frame</code>):</p>
+<pre><code>  * &#39;&#39;spe&#39;&#39; contains percentage covers of plant species (columns) in sampled sites (rows); so for example, species &#39;&#39;AcerPla32&#39;&#39; (second column, //Acer platanoides//, maple) is absent in the first five sites (value zero in the first five rows) and has percentage cover 49 in site 6);
+  * &#39;&#39;eiv&#39;&#39; contains so-called //Ellenberg indicator values// for individual species (indicator values in the columns, species in the rows); for example for &#39;&#39;light&#39;&#39; (second column, reflecting species ecological optima along light gradient), the species &#39;&#39;AcerPla32&#39;&#39; has the value 4 (on a scale from 1 to 9, i.e. it is not shade tolerant neither light demanding);
+  * &#39;&#39;env&#39;&#39; contains environmental descriptors of individual sites (env. descriptors in columns, sites in rows); for example the slope (&#39;&#39;SLOPE&#39;&#39;, second column) of site 3 (third row) is 30 degrees.</code></pre>
+<p><strong>Within the dataset, search and extract the following
+information</strong></p>
+<ol style="list-style-type: decimal">
+<li>What is the highest value of pH measured in the dataset?
+(<code>vltava</code> &gt; <code>env</code> &gt; <code>pH</code>)</li>
+<li>What is the sum of species covers in the plot 33?
+(<code>vltava</code> &gt; <code>spe</code> &gt; row 33)</li>
+<li>What is the mean soil depth? (<code>vltava</code> &gt;
+<code>env</code> &gt; <code>SOILDPT</code>)</li>
+<li>How many missing values for species are there in Ellenberg indicator
+values for soil reaction? (<code>vltava</code> &gt; <code>eiv</code>
+&gt; <code>react</code>)</li>
+<li>How many species are in the plot 64? (<code>vltava</code> &gt;
+<code>spe</code> &gt; sum the values in row 64 which are higher than
+0)</li>
+</ol>
+<p>The exercise should have a form of R code, saved as *.r file and
+uploaded into the CEIBA. Make sure that the first line of the code is
+the header line with your name, student ID and homework number:</p>
+<pre><code># REcol Homework x, Author: your_name, Student ID: xxxxxxxx</code></pre>
+<p>The code should be reproducible (see <a href="/recol/reproducible_script">here</a> what it means). The second
+line (after the header) should load the data (copy the code above for
+it). From the third line of the code, you answer questions 1-5, each
+answer should be only one line of code. The answers should be written as
+a comment after the hashtag (#) at the same line (see below for an
+example).</p>
+<p>Hypothetical example R code, at which the first question would be to
+find the minimum value of elevation (<code>vltava</code> &gt;
+<code>env</code> &gt; <code>ELEVATION</code>):</p>
+<pre><code># REcol Homework 1, Author: David Zeleny, Student ID: p12345678
+load (url (&#39;&#39;https://github.com/zdealveindy/anadat-r/raw/master/data/vltava.RData&#39;&#39;))
+min (vltava$env$ELEVATION) # 405
+... (here come answers to other questions) ...</code></pre>
+<p>Upload the assignment to NTU COOL before the deadline to get 100% of
+the score!</p>
+<p>&lt;hidden For hints, click here ☛ (don’t worry about clicking, it
+does not bite, and nobody will see that!)&gt; - you will need function
+‘’max’’</p>
+<ol style="list-style-type: decimal">
+<li><code>sum</code>, subsetting by square brackets
+<code>[,]</code></li>
+<li><code>mean</code></li>
+<li><code>is.na</code> applied on a vector will return the vector of
+logical values, in which <code>TRUE</code> indicates missing values;
+<code>sum</code> to get the sum of all <code>TRUE</code>‘s -’‘&gt; 0’’
+logical function will turn the vector of species abundances into logical
+values (<code>TRUE</code> for values larger than 0). If you
+<code>sum</code> logical values, <code>TRUE</code> counts as 1, while
+<code>FALSE</code> as 0).</li>
+</ol>
+<p>&lt;/hidden&gt;</p>
+<p><br />
+<br />
+<a href="/recol/exercise/look_at_data/solution">Solution</a> &lt;wrap
+lo&gt;(accessible after the deadline for handing the
+assignment)&lt;/wrap&gt;</p>
+</div>
 </div>
 
 

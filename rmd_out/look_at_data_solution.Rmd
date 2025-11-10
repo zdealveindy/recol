@@ -1,0 +1,25 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Looking at the ecological dataset - Solution
+
+Your code may look similar to this:
+
+``` rsplus
+# REcol Homework 1, Author: David Zeleny, Student ID: p12345678
+load (url ('https://github.com/zdealveindy/anadat-r/raw/master/data/vltava.RData'))
+max (vltava$env$pH) # maximum measured soil pH is 6.76
+sum (vltava$spe[33,]) # sum of species cover is 173
+mean (vltava$env$SOILDPT)  # mean soil depth is 23.71478 cm
+sum (is.na (vltava$eiv$react)) # 104 species are generalists
+sum (vltava$spe[64,]>0) # 44 species present in the plot 64
+```
+
+## Notes:
+- do not include unnecessary code (e.g. `names (vltava)`, or `str (vltava)`);
+- you can apply the function directly on the subsetted object, no need
+  to create intermediate objects (i.e. you can do `max (vltava$env$pH)`,
+  you don't need to do `q1 <- vltava$env$pH; max (q1)`); 
+- when subsetting, single square brackets and double square brackets have different meaning; double square brackets (`[[`) are mainly used in `list` to subset its components.

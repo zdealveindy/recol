@@ -1,0 +1,23 @@
+====== Relationship between soil pH and species richness in forest vegetation ======
+
+Draw the relationship between soil pH and a number of species in the vegetation plots, using dataset ''vltava.xlsx''. 
+
+==== Some details====
+//(you may skip this if you are not interested in ecological explanation behind the relationship) //
+
+//Vltava// is the name of a river in the Czech Republic (Central Europe), which forms deep river valley with slopes covered by nearly natural forest vegetation. I studied this vegetation as a part of my master thesis project; I surveyed vegetation (recorded species composition of plants on plots 10x15 m) and measured environmental factors which are important for plants (like soil pH, soil depth, aspect, elevation etc.). When we count a number of species in each sample and project it against soil pH, we can see rather strong positive relationship - forest on more basic soils is usually more species-rich. This pattern holds true in the whole Europe and some other places in the World (but not in Taiwan) and is perhaps caused by the fact that in Europe, the evolutionary centres for plants are mostly located in limestone regions (mountain ranges in southern Europe). As a result, there are more species adapted to soils with high pH (basiphilous species) than species adapted to soils with low pH (acidophilous species).
+
+==== What do to ====
+  - On this website, go to the section **//Example datasets//** and download the file ''vltava.xlsx''. You may read the description containing the details about origin and nature of the dataset.
+  - Open the dataset in Excel and choose the folder ''Vltava env''. This table represents measured or calculated variables for each vegetation plot (in total there are 97 plots = rows).
+  - Save the table as a *.txt file, where the items are separated by tabulators. Name the file ''vltava.txt''.
+  - Use the functions ''read.table'' or ''read.delim'' to import the ''vltava.txt'' file into R as an object ''vltava.env'' (meaning //environmental data of Vltava dataset//). Make sure that you named the object really ''vltava.env'' - **this is important!**
+  - Draw the relationship between the soil pH (variable ''pH'' in the dataset) and the number of species in each sample (variable ''SPEC.NO'', //species number//). Note that we visualise dependence of species richness on soil pH, which means that soil pH (independent variable) should be on the horizontal axis and the number of species (dependent variable) should be on the vertical one.
+  - Make sure that your R code will save the plot as a *.jpg file with the name ''HW2_plot_XXXXXXXX.jpg'', where ''XXXXXXXX'' replace by your student's ID.
+  - **Into NTU COOL, upload your R code, __NOT__ the file with the plot**!
+  - If you didn't manage to get the result, don't worry, send me at least some partial results; it would also count.
+
+The script should produce file similar to this: {{:recol:figures:hw2_figure_z1234567.jpg?linkonly|}} (click to download and see; ''z1234567'' is my imaginary students ID)
+
+----
+[[recol:exercise:ph-richness:solution|Solution]]
